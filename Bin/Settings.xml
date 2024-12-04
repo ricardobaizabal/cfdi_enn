@@ -1,0 +1,14 @@
+﻿<appSettings>
+  <add key="PrivateKeyStoragePath" value="c:\inetpub\wwwroot\linkium\cfdi\osdan\portalcfd\llave\" />
+  <add key="CertificatesStoragePath" value="c:\inetpub\wwwroot\linkium\cfdi\osdan\portalcfd\certificados\" />
+  <add key="informacionaduanera" value="0" />
+  <add key="retencion4" value="0" />
+  <add key="divisas" value="1" />
+  <add key="usuarios" value="1" />
+  <add key="proveedores" value="1" />
+  <add key="inventarios" value="1" />
+  <add key="espacio_maximo" value="209715200" />
+  <add key="FactureHoyUsuario" value="AAA010101AAA.Test.User" />
+  <add key="FactureHoyContrasena" value="Prueba$1" />
+  <add key="FactureHoyProceso" value="5906390" />
+</appSettings>

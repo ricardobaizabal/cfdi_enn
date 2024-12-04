@@ -1,0 +1,1320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93CD3936-C774-49E8-A025-91FA3CB50BEC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LinkiumCFDI</RootNamespace>
+    <AssemblyName>LinkiumCFDI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>LinkiumCFDI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>LinkiumCFDI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.6.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WebSites\FacturaElectronica2011\Bin\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilkatDotNet2, Version=9.0.8.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\ChilkatDotNet2.dll</HintPath>
+    </Reference>
+    <Reference Include="diFirmaSatNet, Version=3.0.0.22519, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WebSites\FacturaElectronica2011\Bin\diFirmaSatNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Formatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Telerik.Web.UI, Version=2013.3.1015.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2013.3.1015.35\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="ThoughtWorks.QRCode, Version=1.0.4058.19167, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="uCFDsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Reporting, Version=5.3.11.1116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ChilkatDotNet2.dll" />
+    <Content Include="bin\FormatosPDF.dll" />
+    <Content Include="Default.aspx" />
+    <Content Include="portalcfd\ComplementoDePagos.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actualizar_UUID.aspx.designer.vb">
+      <DependentUpon>actualizar_UUID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="actualizar_UUID.aspx.vb">
+      <DependentUpon>actualizar_UUID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Addendas\AddendaAHM.vb" />
+    <Compile Include="App_Code\Comprobante.vb" />
+    <Compile Include="App_Code\CookieUtil.vb" />
+    <Compile Include="App_Code\CryptoUtil.vb" />
+    <Compile Include="App_Code\DataControl.vb" />
+    <Compile Include="App_Code\FacturaxionCancelacion.vb" />
+    <Compile Include="App_Code\FillRadComboBox.vb" />
+    <Compile Include="App_Code\ObjComms.vb" />
+    <Compile Include="App_Code\RespuestaPAC.vb" />
+    <Compile Include="App_Code\RutinasCFDI32.vb" />
+    <Compile Include="App_GlobalResources\Resource.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\FormatoOrdenCompra.Designer.vb">
+      <DependentUpon>FormatoOrdenCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\FormatoOrdenCompra.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cfdi_osdan.Designer.vb">
+      <DependentUpon>formato_cfdi_osdan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cfdi_osdan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_complemento33iu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_complemento40.Designer.vb">
+      <DependentUpon>formato_complemento40.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\formato_complemento40.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizacion_parte3.Designer.vb">
+      <DependentUpon>formato_cotizacion_parte3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizacion_parte3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizacion_parte2.Designer.vb">
+      <DependentUpon>formato_cotizacion_parte2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizacion_parte2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizacion_parte1.Designer.vb">
+      <DependentUpon>formato_cotizacion_parte1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizacion_parte1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizaciones_images.Designer.vb">
+      <DependentUpon>formato_cotizaciones_images.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizaciones_images.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizaciones_osdan.Designer.vb">
+      <DependentUpon>formato_cotizaciones_osdan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formatos pdf\formato_cotizaciones_osdan.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.vb">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.vb">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="portalcfd\administracion\recepcion_facturas.aspx.designer.vb">
+      <DependentUpon>recepcion_facturas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\administracion\recepcion_facturas.aspx.vb">
+      <DependentUpon>recepcion_facturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\AgregarCotizacion.aspx.designer.vb">
+      <DependentUpon>AgregarCotizacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\AgregarCotizacion.aspx.vb">
+      <DependentUpon>AgregarCotizacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\AgregarRemision.aspx.designer.vb">
+      <DependentUpon>AgregarRemision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\AgregarRemision.aspx.vb">
+      <DependentUpon>AgregarRemision.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\almacen\abastecimiento.aspx.designer.vb">
+      <DependentUpon>abastecimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\almacen\abastecimiento.aspx.vb">
+      <DependentUpon>abastecimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\almacen\ajustes.aspx.designer.vb">
+      <DependentUpon>ajustes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\almacen\ajustes.aspx.vb">
+      <DependentUpon>ajustes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\almacen\Conceptos.aspx.designer.vb">
+      <DependentUpon>Conceptos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\almacen\Conceptos.aspx.vb">
+      <DependentUpon>Conceptos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\almacen\entradas.aspx.designer.vb">
+      <DependentUpon>entradas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\almacen\entradas.aspx.vb">
+      <DependentUpon>entradas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\almacen\inventario.aspx.designer.vb">
+      <DependentUpon>inventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\almacen\inventario.aspx.vb">
+      <DependentUpon>inventario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\almacen\kardex.aspx.designer.vb">
+      <DependentUpon>kardex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\almacen\kardex.aspx.vb">
+      <DependentUpon>kardex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\almacen\Productos.aspx.designer.vb">
+      <DependentUpon>Productos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\almacen\Productos.aspx.vb">
+      <DependentUpon>Productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Aduana.aspx.designer.vb">
+      <DependentUpon>Aduana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Aduana.aspx.vb">
+      <DependentUpon>Aduana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\ClaveUnidad.aspx.designer.vb">
+      <DependentUpon>ClaveUnidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\ClaveUnidad.aspx.vb">
+      <DependentUpon>ClaveUnidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\CodigoPostal.aspx.designer.vb">
+      <DependentUpon>CodigoPostal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\CodigoPostal.aspx.vb">
+      <DependentUpon>CodigoPostal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\FormaPago.aspx.designer.vb">
+      <DependentUpon>FormaPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\FormaPago.aspx.vb">
+      <DependentUpon>FormaPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Impuestos.aspx.designer.vb">
+      <DependentUpon>Impuestos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Impuestos.aspx.vb">
+      <DependentUpon>Impuestos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\MetodoPago.aspx.designer.vb">
+      <DependentUpon>MetodoPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\MetodoPago.aspx.vb">
+      <DependentUpon>MetodoPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Moneda.aspx.designer.vb">
+      <DependentUpon>Moneda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Moneda.aspx.vb">
+      <DependentUpon>Moneda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\NumPedimentoAduana.aspx.designer.vb">
+      <DependentUpon>NumPedimentoAduana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\NumPedimentoAduana.aspx.vb">
+      <DependentUpon>NumPedimentoAduana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\PatenteAduanal.aspx.designer.vb">
+      <DependentUpon>PatenteAduanal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\PatenteAduanal.aspx.vb">
+      <DependentUpon>PatenteAduanal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Países.aspx.designer.vb">
+      <DependentUpon>Países.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Países.aspx.vb">
+      <DependentUpon>Países.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\ProdServ.aspx.designer.vb">
+      <DependentUpon>ProdServ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\ProdServ.aspx.vb">
+      <DependentUpon>ProdServ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\RegimenFiscal.aspx.designer.vb">
+      <DependentUpon>RegimenFiscal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\RegimenFiscal.aspx.vb">
+      <DependentUpon>RegimenFiscal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\TasaOCuota.aspx.designer.vb">
+      <DependentUpon>TasaOCuota.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\TasaOCuota.aspx.vb">
+      <DependentUpon>TasaOCuota.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\TipoDeComprobante.aspx.designer.vb">
+      <DependentUpon>TipoDeComprobante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\TipoDeComprobante.aspx.vb">
+      <DependentUpon>TipoDeComprobante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Tipofactor.aspx.designer.vb">
+      <DependentUpon>Tipofactor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\Tipofactor.aspx.vb">
+      <DependentUpon>Tipofactor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\TipoRelacion.aspx.designer.vb">
+      <DependentUpon>TipoRelacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\TipoRelacion.aspx.vb">
+      <DependentUpon>TipoRelacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\UsoCFDI.aspx.designer.vb">
+      <DependentUpon>UsoCFDI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\catalogos\UsoCFDI.aspx.vb">
+      <DependentUpon>UsoCFDI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\CFD.aspx.designer.vb">
+      <DependentUpon>CFD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\CFD.aspx.vb">
+      <DependentUpon>CFD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\CFD_Detalle.aspx.designer.vb">
+      <DependentUpon>CFD_Detalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\CFD_Detalle.aspx.vb">
+      <DependentUpon>CFD_Detalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\claveproducto.aspx.designer.vb">
+      <DependentUpon>claveproducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\claveproducto.aspx.vb">
+      <DependentUpon>claveproducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Clientes.aspx.designer.vb">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Clientes.aspx.vb">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\ComplementoDePagos.aspx.designer.vb">
+      <DependentUpon>ComplementoDePagos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\ComplementoDePagos.aspx.vb">
+      <DependentUpon>ComplementoDePagos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\ComplementosEmitidos.aspx.designer.vb">
+      <DependentUpon>ComplementosEmitidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\ComplementosEmitidos.aspx.vb">
+      <DependentUpon>ComplementosEmitidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Configuracion.aspx.designer.vb">
+      <DependentUpon>Configuracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Configuracion.aspx.vb">
+      <DependentUpon>Configuracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Cotizaciones.aspx.designer.vb">
+      <DependentUpon>Cotizaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Cotizaciones.aspx.vb">
+      <DependentUpon>Cotizaciones.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\CuentasBeneficiario.aspx.designer.vb">
+      <DependentUpon>CuentasBeneficiario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\CuentasBeneficiario.aspx.vb">
+      <DependentUpon>CuentasBeneficiario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Datos.aspx.designer.vb">
+      <DependentUpon>Datos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Datos.aspx.vb">
+      <DependentUpon>Datos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\estatus.aspx.designer.vb">
+      <DependentUpon>estatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\estatus.aspx.vb">
+      <DependentUpon>estatus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Facturar.aspx.designer.vb">
+      <DependentUpon>Facturar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Facturar.aspx.vb">
+      <DependentUpon>Facturar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\folios.aspx.designer.vb">
+      <DependentUpon>folios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\folios.aspx.vb">
+      <DependentUpon>folios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\inventarios\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\inventarios\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\inventarios\informacion.aspx.designer.vb">
+      <DependentUpon>informacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\inventarios\informacion.aspx.vb">
+      <DependentUpon>informacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\MasterPage_PortalCFD.master.designer.vb">
+      <DependentUpon>MasterPage_PortalCFD.master</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\MasterPage_PortalCFD.master.vb">
+      <DependentUpon>MasterPage_PortalCFD.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\OrdenesCompra.aspx.designer.vb">
+      <DependentUpon>OrdenesCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\OrdenesCompra.aspx.vb">
+      <DependentUpon>OrdenesCompra.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\OrdenesCompraEmitidas.aspx.designer.vb">
+      <DependentUpon>OrdenesCompraEmitidas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\OrdenesCompraEmitidas.aspx.vb">
+      <DependentUpon>OrdenesCompraEmitidas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\agregarorden.aspx.designer.vb">
+      <DependentUpon>agregarorden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\agregarorden.aspx.vb">
+      <DependentUpon>agregarorden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\autoriza.aspx.designer.vb">
+      <DependentUpon>autoriza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\autoriza.aspx.vb">
+      <DependentUpon>autoriza.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\cuentas_banco.aspx.designer.vb">
+      <DependentUpon>cuentas_banco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\cuentas_banco.aspx.vb">
+      <DependentUpon>cuentas_banco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\cuentas_por_pagar.aspx.designer.vb">
+      <DependentUpon>cuentas_por_pagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\cuentas_por_pagar.aspx.vb">
+      <DependentUpon>cuentas_por_pagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\editarorden.aspx.designer.vb">
+      <DependentUpon>editarorden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\editarorden.aspx.vb">
+      <DependentUpon>editarorden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\egresos.aspx.designer.vb">
+      <DependentUpon>egresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\egresos.aspx.vb">
+      <DependentUpon>egresos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\facturas_recibidas.aspx.designer.vb">
+      <DependentUpon>facturas_recibidas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\facturas_recibidas.aspx.vb">
+      <DependentUpon>facturas_recibidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\gastos.aspx.designer.vb">
+      <DependentUpon>gastos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\gastos.aspx.vb">
+      <DependentUpon>gastos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\informacion.aspx.designer.vb">
+      <DependentUpon>informacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\informacion.aspx.vb">
+      <DependentUpon>informacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\ordenes_compra.aspx.designer.vb">
+      <DependentUpon>ordenes_compra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\ordenes_compra.aspx.vb">
+      <DependentUpon>ordenes_compra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\proveedores.aspx.designer.vb">
+      <DependentUpon>proveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\proveedores.aspx.vb">
+      <DependentUpon>proveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\recepcion_facturas.aspx.designer.vb">
+      <DependentUpon>recepcion_facturas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\recepcion_facturas.aspx.vb">
+      <DependentUpon>recepcion_facturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\recibir.aspx.designer.vb">
+      <DependentUpon>recibir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\recibir.aspx.vb">
+      <DependentUpon>recibir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\recibirorden.aspx.designer.vb">
+      <DependentUpon>recibirorden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\proveedores\recibirorden.aspx.vb">
+      <DependentUpon>recibirorden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Remisiones.aspx.designer.vb">
+      <DependentUpon>Remisiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Remisiones.aspx.vb">
+      <DependentUpon>Remisiones.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Reportes.aspx.designer.vb">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Reportes.aspx.vb">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\actualizacionfacturasxusuario.aspx.designer.vb">
+      <DependentUpon>actualizacionfacturasxusuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\actualizacionfacturasxusuario.aspx.vb">
+      <DependentUpon>actualizacionfacturasxusuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cartera.aspx.designer.vb">
+      <DependentUpon>cartera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cartera.aspx.vb">
+      <DependentUpon>cartera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\carteraDiv.aspx.designer.vb">
+      <DependentUpon>carteraDiv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\carteraDiv.aspx.vb">
+      <DependentUpon>carteraDiv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\carteraGraf.aspx.designer.vb">
+      <DependentUpon>carteraGraf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\carteraGraf.aspx.vb">
+      <DependentUpon>carteraGraf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\carteraRet.aspx.designer.vb">
+      <DependentUpon>carteraRet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\carteraRet.aspx.vb">
+      <DependentUpon>carteraRet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cobranza.aspx.designer.vb">
+      <DependentUpon>cobranza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cobranza.aspx.vb">
+      <DependentUpon>cobranza.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cobranzaDiv.aspx.designer.vb">
+      <DependentUpon>cobranzaDiv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cobranzaDiv.aspx.vb">
+      <DependentUpon>cobranzaDiv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cobranzaRet.aspx.designer.vb">
+      <DependentUpon>cobranzaRet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\cobranzaRet.aspx.vb">
+      <DependentUpon>cobranzaRet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\facturasxusuario.aspx.designer.vb">
+      <DependentUpon>facturasxusuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\facturasxusuario.aspx.vb">
+      <DependentUpon>facturasxusuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\historico.aspx.designer.vb">
+      <DependentUpon>historico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\historico.aspx.vb">
+      <DependentUpon>historico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\historicoDiv.aspx.designer.vb">
+      <DependentUpon>historicoDiv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\historicoDiv.aspx.vb">
+      <DependentUpon>historicoDiv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\historicoRet.aspx.designer.vb">
+      <DependentUpon>historicoRet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\historicoRet.aspx.vb">
+      <DependentUpon>historicoRet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\informeSATmensual.aspx.designer.vb">
+      <DependentUpon>informeSATmensual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\informeSATmensual.aspx.vb">
+      <DependentUpon>informeSATmensual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\InformeSatMensualDiv.aspx.designer.vb">
+      <DependentUpon>InformeSatMensualDiv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\InformeSatMensualDiv.aspx.vb">
+      <DependentUpon>InformeSatMensualDiv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\ingresos.aspx.designer.vb">
+      <DependentUpon>ingresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\ingresos.aspx.vb">
+      <DependentUpon>ingresos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\ingresosDiv.aspx.designer.vb">
+      <DependentUpon>ingresosDiv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\ingresosDiv.aspx.vb">
+      <DependentUpon>ingresosDiv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\ingresosRet.aspx.designer.vb">
+      <DependentUpon>ingresosRet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\ingresosRet.aspx.vb">
+      <DependentUpon>ingresosRet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\notasdecredito.aspx.designer.vb">
+      <DependentUpon>notasdecredito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\notasdecredito.aspx.vb">
+      <DependentUpon>notasdecredito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\reportes\productos.aspx.designer.vb">
+      <DependentUpon>productos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\reportes\productos.aspx.vb">
+      <DependentUpon>productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Salir.aspx.designer.vb">
+      <DependentUpon>Salir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Salir.aspx.vb">
+      <DependentUpon>Salir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\testXML.aspx.designer.vb">
+      <DependentUpon>testXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\testXML.aspx.vb">
+      <DependentUpon>testXML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Timbrado.aspx.designer.vb">
+      <DependentUpon>Timbrado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Timbrado.aspx.vb">
+      <DependentUpon>Timbrado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\Unidad.aspx.designer.vb">
+      <DependentUpon>Unidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\Unidad.aspx.vb">
+      <DependentUpon>Unidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\UserControls_PortalCFD\Menu_PortalCFD.ascx.designer.vb">
+      <DependentUpon>Menu_PortalCFD.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\UserControls_PortalCFD\Menu_PortalCFD.ascx.vb">
+      <DependentUpon>Menu_PortalCFD.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\UserControls_PortalCFD\SystemHeader_PortalCFD.ascx.designer.vb">
+      <DependentUpon>SystemHeader_PortalCFD.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\UserControls_PortalCFD\SystemHeader_PortalCFD.ascx.vb">
+      <DependentUpon>SystemHeader_PortalCFD.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\usuarios\informacion.aspx.designer.vb">
+      <DependentUpon>informacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\usuarios\informacion.aspx.vb">
+      <DependentUpon>informacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\usuarios\usuarios.aspx.designer.vb">
+      <DependentUpon>usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\usuarios\usuarios.aspx.vb">
+      <DependentUpon>usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portalcfd\VerificaCertificado.aspx.designer.vb">
+      <DependentUpon>VerificaCertificado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="portalcfd\VerificaCertificado.aspx.vb">
+      <DependentUpon>VerificaCertificado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web References\CancelacionSIFEI\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SIFEI40\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SIFEIPruebas\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Resource.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\BouncyCastle.Crypto.dll" />
+    <Content Include="bin\diFirmaSatNet.dll" />
+    <Content Include="bin\Formatos.dll" />
+    <Content Include="bin\Formatos.pdb" />
+    <Content Include="bin\Formatos.xml" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\uCFDsLib.dll" />
+    <Content Include="images\action_delete.gif" />
+    <Content Include="images\arrow_1.gif" />
+    <Content Include="images\arrow_2.gif" />
+    <Content Include="images\icons\admFolios_03.jpg" />
+    <Content Include="images\icons\AgreEditUsuario_03.jpg" />
+    <Content Include="images\icons\AgregarEditarProducto_03.jpg" />
+    <Content Include="images\icons\AgregarEditarProveedor_03.jpg" />
+    <Content Include="images\icons\arrow.gif" />
+    <Content Include="images\icons\buscador_03.jpg" />
+    <Content Include="images\icons\BuscarFactura_03.jpg" />
+    <Content Include="images\icons\certificates.png" />
+    <Content Include="images\icons\CLIENTES.gif" />
+    <Content Include="images\icons\close.gif" />
+    <Content Include="images\icons\COMPROBANTES.gif" />
+    <Content Include="images\icons\ConfiguraCertificados_03.jpg" />
+    <Content Include="images\icons\CONFIGURACION.gif" />
+    <Content Include="images\icons\ConfiguraContrasena_03.jpg" />
+    <Content Include="images\icons\ConfiguraDatos_03.jpg" />
+    <Content Include="images\icons\CRM.gif" />
+    <Content Include="images\icons\data.png" />
+    <Content Include="images\icons\datosAlberca_03.jpg" />
+    <Content Include="images\icons\download_icon.gif" />
+    <Content Include="images\icons\file.gif" />
+    <Content Include="images\icons\file.png" />
+    <Content Include="images\icons\filtros_03.jpg" />
+    <Content Include="images\icons\FOLIOS.gif" />
+    <Content Include="images\icons\INVENTARIOS.gif" />
+    <Content Include="images\icons\listaadoUsuario_03.jpg" />
+    <Content Include="images\icons\ListaClientes_03.jpg" />
+    <Content Include="images\icons\ListaCotiza_03.jpg" />
+    <Content Include="images\icons\ListadoProductos_03.jpg" />
+    <Content Include="images\icons\ListaFacturas_03.jpg" />
+    <Content Include="images\icons\ListaProveedores_03.jpg" />
+    <Content Include="images\icons\ListaRemisiones_03.jpg" />
+    <Content Include="images\icons\MISUSUARIOS.jpg" />
+    <Content Include="images\icons\OrdenesTrabajo_03.jpg" />
+    <Content Include="images\icons\PANELWEB.gif" />
+    <Content Include="images\icons\PRODUCTOS.gif" />
+    <Content Include="images\icons\PROVEEDORES.gif" />
+    <Content Include="images\icons\REPORTES.gif" />
+    <Content Include="images\icons\reportes_03.jpg" />
+    <Content Include="images\icons\SALIR.gif" />
+    <Content Include="images\img_letter.jpg" />
+    <Content Include="portalcfd\administracion\recepcion_facturas.aspx" />
+    <Content Include="portalcfd\almacen\abastecimiento.aspx" />
+    <Content Include="portalcfd\almacen\ajustes.aspx" />
+    <Content Include="portalcfd\almacen\entradas.aspx" />
+    <Content Include="portalcfd\almacen\inventario.aspx" />
+    <Content Include="portalcfd\almacen\kardex.aspx" />
+    <Content Include="portalcfd\almacen\Productos.aspx" />
+    <Content Include="portalcfd\cbb\P3.png" />
+    <Content Include="portalcfd\cbb\P4.png" />
+    <Content Include="portalcfd\cbb\P5.png" />
+    <Content Include="portalcfd\cbb\P6.png" />
+    <Content Include="portalcfd\cbb\P7.png" />
+    <Content Include="portalcfd\cbb\P9.png" />
+    <Content Include="portalcfd\CFD.aspx" />
+    <Content Include="portalcfd\CFD_Detalle.aspx" />
+    <Content Include="portalcfd\cfd_storage\iu_A7.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P3.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P3_timbrado.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P4.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P4_timbrado.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P5.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P5_timbrado.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P6.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P6_timbrado.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P6_timbrado_addenda.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P7.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P7_timbrado.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P8.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P9.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_P9_timbrado.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_params_P3.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_params_P4.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_params_P5.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_params_P6.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_params_P7.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_params_P8.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_params_P9.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_timbre_P3.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_timbre_P4.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_timbre_P5.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_timbre_P6.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_timbre_P7.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_timbre_P8.xml" />
+    <Content Include="portalcfd\cfd_storage\iu_timbre_P9.xml" />
+    <Content Include="portalcfd\cfd_storage\Output.txt" />
+    <Content Include="portalcfd\Clientes.aspx" />
+    <Content Include="portalcfd\Configuracion.aspx" />
+    <Content Include="portalcfd\Datos.aspx" />
+    <Content Include="portalcfd\Facturar.aspx" />
+    <Content Include="portalcfd\folios.aspx" />
+    <Content Include="portalcfd\Home.aspx" />
+    <Content Include="portalcfd\images\action_add.gif" />
+    <Content Include="portalcfd\images\arrow.gif" />
+    <Content Include="portalcfd\images\certificates.png" />
+    <Content Include="portalcfd\images\cfds.jpg" />
+    <Content Include="portalcfd\images\clientes.jpg" />
+    <Content Include="portalcfd\images\close.gif" />
+    <Content Include="portalcfd\images\comprobant.jpg" />
+    <Content Include="portalcfd\images\concept.jpg" />
+    <Content Include="portalcfd\images\configuracion.jpg" />
+    <Content Include="portalcfd\images\data.png" />
+    <Content Include="portalcfd\images\datClient.jpg" />
+    <Content Include="portalcfd\images\download_icon.gif" />
+    <Content Include="portalcfd\images\envelope.jpg" />
+    <Content Include="portalcfd\images\file.gif" />
+    <Content Include="portalcfd\images\file.png" />
+    <Content Include="portalcfd\images\folios.jpg" />
+    <Content Include="portalcfd\images\logo_factura_maquinados.jpg" />
+    <Content Include="portalcfd\images\logo_union.jpg" />
+    <Content Include="portalcfd\images\printer.jpg" />
+    <Content Include="portalcfd\images\productos.jpg" />
+    <Content Include="portalcfd\images\reportes.jpg" />
+    <Content Include="portalcfd\images\resumen.jpg" />
+    <Content Include="portalcfd\inventarios\Default.aspx" />
+    <Content Include="portalcfd\inventarios\informacion.aspx" />
+    <Content Include="portalcfd\logos\logo_factura_maquinados.jpg" />
+    <Content Include="portalcfd\logos\logo_formato_union.jpg" />
+    <Content Include="portalcfd\logos\logo_perceptron_formato.jpg" />
+    <Content Include="portalcfd\logos\logo_perceptron_portal.jpg" />
+    <Content Include="portalcfd\logos\logo_portal_CFDI_union.jpg" />
+    <Content Include="portalcfd\logos\logo_union.jpg" />
+    <Content Include="portalcfd\proveedores\informacion.aspx" />
+    <Content Include="portalcfd\proveedores\proveedores.aspx" />
+    <Content Include="portalcfd\proveedores\recepcion_facturas.aspx" />
+    <Content Include="portalcfd\reportes\actualizacionfacturasxusuario.aspx" />
+    <Content Include="portalcfd\reportes\cartera.aspx" />
+    <Content Include="portalcfd\reportes\carteraDiv.aspx" />
+    <Content Include="portalcfd\reportes\carteraRet.aspx" />
+    <Content Include="portalcfd\reportes\cobranza.aspx" />
+    <Content Include="portalcfd\reportes\cobranzaDiv.aspx" />
+    <Content Include="portalcfd\reportes\cobranzaRet.aspx" />
+    <Content Include="portalcfd\reportes\facturasxusuario.aspx" />
+    <Content Include="portalcfd\reportes\historico.aspx" />
+    <Content Include="portalcfd\reportes\historicoDiv.aspx" />
+    <Content Include="portalcfd\reportes\historicoRet.aspx" />
+    <Content Include="portalcfd\reportes\informeSATmensual.aspx" />
+    <Content Include="portalcfd\reportes\InformeSatMensualDiv.aspx" />
+    <Content Include="portalcfd\reportes\ingresos.aspx" />
+    <Content Include="portalcfd\reportes\ingresosDiv.aspx" />
+    <Content Include="portalcfd\reportes\ingresosRet.aspx" />
+    <Content Include="portalcfd\reportes\notasdecredito.aspx" />
+    <Content Include="portalcfd\reportes\productos.aspx" />
+    <Content Include="portalcfd\Salir.aspx" />
+    <Content Include="portalcfd\SAT\cadenaoriginal_2_0.xslt" />
+    <Content Include="portalcfd\SAT\cadenaoriginal_3_0.xslt" />
+    <Content Include="portalcfd\SAT\cadenaoriginal_3_2.xslt" />
+    <Content Include="portalcfd\SAT\cadenaoriginal_TFD_1_0.xslt" />
+    <Content Include="portalcfd\SAT\detallista.xslt" />
+    <Content Include="portalcfd\SAT\divisas.xslt" />
+    <Content Include="portalcfd\SAT\donat.xslt" />
+    <Content Include="portalcfd\SAT\ecb.xslt" />
+    <Content Include="portalcfd\SAT\ecc.xslt" />
+    <Content Include="portalcfd\SAT\implocal.xslt" />
+    <Content Include="portalcfd\SAT\psgecfd.xslt" />
+    <Content Include="portalcfd\SAT\terceros.xslt" />
+    <Content Include="portalcfd\SAT\utilerias.xslt" />
+    <Content Include="portalcfd\Styles\Styles.css" />
+    <Content Include="portalcfd\testXML.aspx" />
+    <Content Include="portalcfd\Timbrado.aspx" />
+    <Content Include="portalcfd\UserControls_PortalCFD\Menu_PortalCFD.ascx" />
+    <Content Include="portalcfd\UserControls_PortalCFD\SystemHeader_PortalCFD.ascx" />
+    <Content Include="portalcfd\usuarios\informacion.aspx" />
+    <Content Include="portalcfd\usuarios\usuarios.aspx" />
+    <Content Include="portalcfd\VerificaCertificado.aspx" />
+    <EmbeddedResource Include="formatos pdf\FormatoOrdenCompra.resx">
+      <DependentUpon>FormatoOrdenCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_cfdi_osdan.resx">
+      <DependentUpon>formato_cfdi_osdan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_complemento33iu.resx">
+      <DependentUpon>formato_complemento33iu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_complemento40.resx">
+      <DependentUpon>formato_complemento40.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_cotizacion_parte3.resx">
+      <DependentUpon>formato_cotizacion_parte3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_cotizacion_parte2.resx">
+      <DependentUpon>formato_cotizacion_parte2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_cotizacion_parte1.resx">
+      <DependentUpon>formato_cotizacion_parte1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_cotizaciones_images.resx">
+      <DependentUpon>formato_cotizaciones_images.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formatos pdf\formato_cotizaciones_osdan.resx">
+      <DependentUpon>formato_cotizaciones_osdan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\diFirmaSatNet.dll.refresh" />
+    <Content Include="bin\Formatos.dll.config" />
+    <None Include="bin\Telerik.Web.UI.dll.refresh" />
+    <None Include="bin\Telerik.Web.UI.Skins.dll.refresh" />
+    <Content Include="actualizar_UUID.aspx" />
+    <Content Include="App_Data\Connections.xml" />
+    <Content Include="App_Data\Settings.xml" />
+    <Content Include="images\icons\logolinkium.jpg" />
+    <Content Include="images\inicio\certificados.jpg" />
+    <Content Include="images\inicio\certificados2.jpg" />
+    <Content Include="images\inicio\clientes.jpg" />
+    <Content Include="images\inicio\clientes2.jpg" />
+    <Content Include="images\inicio\comprobantes.jpg" />
+    <Content Include="images\inicio\comprobantes2.jpg" />
+    <Content Include="images\inicio\empresas.jpg" />
+    <Content Include="images\inicio\empresas2.jpg" />
+    <Content Include="images\inicio\folios.jpg" />
+    <Content Include="images\inicio\folios2.jpg" />
+    <Content Include="images\inicio\inventario.jpg" />
+    <Content Include="images\inicio\inventario2.jpg" />
+    <Content Include="images\inicio\productos.jpg" />
+    <Content Include="images\inicio\productos2.jpg" />
+    <Content Include="images\inicio\proveedores.jpg" />
+    <Content Include="images\inicio\proveedores2.jpg" />
+    <Content Include="images\inicio\reportes.jpg" />
+    <Content Include="images\inicio\reportes2.jpg" />
+    <Content Include="images\inicio\salir.jpg" />
+    <Content Include="images\inicio\salir2.jpg" />
+    <Content Include="MasterPage.master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="portalcfd\certificados\aaa010101aaa_CSD_01.cer" />
+    <None Include="portalcfd\certificados\aaa010101aaa_csd_09.cer" />
+    <None Include="portalcfd\certificados\aaa010101aaa_CSD_10.cer" />
+    <None Include="portalcfd\certificados\aaqm610917qja.cer" />
+    <None Include="portalcfd\llave\aaa010101aaa_CSD_01.key" />
+    <None Include="portalcfd\llave\aaa010101aaa_csd_09.key" />
+    <None Include="portalcfd\llave\aaa010101aaa_CSD_10.key" />
+    <None Include="portalcfd\llave\aaqm610917qja_1011180955s.key" />
+    <Content Include="portalcfd\AgregarCotizacion.aspx" />
+    <Content Include="portalcfd\AgregarRemision.aspx" />
+    <Content Include="portalcfd\almacen\Conceptos.aspx" />
+    <Content Include="portalcfd\catalogos\Aduana.aspx" />
+    <Content Include="portalcfd\catalogos\ClaveUnidad.aspx" />
+    <Content Include="portalcfd\catalogos\CodigoPostal.aspx" />
+    <Content Include="portalcfd\catalogos\FormaPago.aspx" />
+    <Content Include="portalcfd\catalogos\Impuestos.aspx" />
+    <Content Include="portalcfd\catalogos\MetodoPago.aspx" />
+    <Content Include="portalcfd\catalogos\Moneda.aspx" />
+    <Content Include="portalcfd\catalogos\NumPedimentoAduana.aspx" />
+    <Content Include="portalcfd\catalogos\PatenteAduanal.aspx" />
+    <Content Include="portalcfd\catalogos\Países.aspx" />
+    <Content Include="portalcfd\catalogos\ProdServ.aspx" />
+    <Content Include="portalcfd\catalogos\RegimenFiscal.aspx" />
+    <Content Include="portalcfd\catalogos\TasaOCuota.aspx" />
+    <Content Include="portalcfd\catalogos\TipoDeComprobante.aspx" />
+    <Content Include="portalcfd\catalogos\Tipofactor.aspx" />
+    <Content Include="portalcfd\catalogos\TipoRelacion.aspx" />
+    <Content Include="portalcfd\catalogos\UsoCFDI.aspx" />
+    <Content Include="portalcfd\claveproducto.aspx" />
+    <Content Include="portalcfd\ComplementosEmitidos.aspx" />
+    <Content Include="portalcfd\Cotizaciones.aspx" />
+    <Content Include="portalcfd\CuentasBeneficiario.aspx" />
+    <Content Include="portalcfd\estatus.aspx" />
+    <Content Include="portalcfd\images\envelopeok.jpg" />
+    <Content Include="portalcfd\logos\banerLink.jpg" />
+    <Content Include="portalcfd\MasterPage_PortalCFD.master" />
+    <Content Include="portalcfd\OrdenesCompra.aspx" />
+    <Content Include="portalcfd\OrdenesCompraEmitidas.aspx" />
+    <Content Include="portalcfd\proveedores\agregarorden.aspx" />
+    <Content Include="portalcfd\proveedores\autoriza.aspx" />
+    <Content Include="portalcfd\proveedores\cuentas_banco.aspx" />
+    <Content Include="portalcfd\proveedores\cuentas_por_pagar.aspx" />
+    <Content Include="portalcfd\proveedores\editarorden.aspx" />
+    <Content Include="portalcfd\proveedores\egresos.aspx" />
+    <Content Include="portalcfd\proveedores\facturas_recibidas.aspx" />
+    <Content Include="portalcfd\proveedores\gastos.aspx" />
+    <Content Include="portalcfd\proveedores\ordenes_compra.aspx" />
+    <Content Include="portalcfd\proveedores\recibir.aspx" />
+    <Content Include="portalcfd\proveedores\recibirorden.aspx" />
+    <Content Include="portalcfd\Remisiones.aspx" />
+    <Content Include="portalcfd\Reportes.aspx" />
+    <Content Include="portalcfd\reportes\carteraGraf.aspx" />
+    <Content Include="portalcfd\Unidad.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="style.css" />
+    <None Include="portalcfd\pdf\iu_P4.pdf" />
+    <None Include="portalcfd\pdf\iu_P4_preimpreso.pdf" />
+    <None Include="portalcfd\pdf\iu_P5.pdf" />
+    <None Include="portalcfd\pdf\iu_P5_preimpreso.pdf" />
+    <None Include="portalcfd\pdf\iu_P6.pdf" />
+    <None Include="portalcfd\pdf\iu_P6_preimpreso.pdf" />
+    <None Include="portalcfd\pdf\iu_P7.pdf" />
+    <None Include="portalcfd\pdf\iu_P7_preimpreso.pdf" />
+    <None Include="portalcfd\pdf\iu_P9.pdf" />
+    <None Include="portalcfd\pdf\iu_P9_preimpreso.pdf" />
+    <Content Include="Web References\SIFEI40\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <None Include="Web References\CancelacionSIFEI\Cancelacion.wsdl" />
+    <None Include="Web References\CancelacionSIFEI\Cancelacion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Web References\CancelacionSIFEI\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <None Include="Web References\SIFEI40\SIFEI.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SIFEI40\SIFEIService.wsdl" />
+    <Content Include="Web References\SIFEIPruebas\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <None Include="Web References\SIFEIPruebas\SIFEI.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SIFEIPruebas\SIFEIService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Browsers\" />
+    <Folder Include="portalcfd\facturaxion\" />
+    <Folder Include="portalcfd\images\productos\" />
+    <Folder Include="portalcfd\informes\" />
+    <Folder Include="portalcfd\proveedores\oc\" />
+    <Folder Include="portalcfd\proveedores\pdf\" />
+    <Folder Include="portalcfd\proveedores\xml\" />
+    <Folder Include="portalcfd\utils\" />
+    <Folder Include="ws\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://devcfdi.sifei.com.mx:8080/SIFEI33/SIFEI%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SIFEIPruebas\</RelPath>
+      <UpdateFromURL>http://devcfdi.sifei.com.mx:8080/SIFEI33/SIFEI%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>LinkiumCFDI_SIFEIPruebas_SIFEIService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://sat.sifei.com.mx:8443/SIFEI/SIFEI%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SIFEI40\</RelPath>
+      <UpdateFromURL>https://sat.sifei.com.mx:8443/SIFEI/SIFEI%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>LinkiumCFDI_SIFEI40_SIFEIService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://sat.sifei.com.mx:9000/CancelacionSIFEI/Cancelacion%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CancelacionSIFEI\</RelPath>
+      <UpdateFromURL>https://sat.sifei.com.mx:9000/CancelacionSIFEI/Cancelacion%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>LinkiumCFDI_CancelacionSIFEI_Cancelacion</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56424</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,14 @@
+﻿<appSettings>
+  <add key="PrivateKeyStoragePath" value="E:\cfdi_linkium\enn\portalcfd\llave\" />
+  <add key="CertificatesStoragePath" value="E:\cfdi_linkium\enn\portalcfd\certificados\" />
+  <add key="informacionaduanera" value="0" />
+  <add key="retencion4" value="0" />
+  <add key="divisas" value="1" />
+  <add key="usuarios" value="1" />
+  <add key="proveedores" value="1" />
+  <add key="inventarios" value="1" />
+  <add key="espacio_maximo" value="209715200" />
+  <add key="SIFEIUsuario" value="LST101206985" />
+  <add key="SIFEIContrasena" value="d77ab121" />
+  <add key="SIFEIIdEquipo" value="NDE0OTFlOTEtOGQxYi1mODM3LWRlOWMtNWE3YTJlNWE0ZTgy" />
+</appSettings>

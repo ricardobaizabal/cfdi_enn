@@ -1,0 +1,5 @@
+﻿<connectionStrings>
+	<!-- <add name="conn" connectionString="Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=cfdi_enn;Data Source=localhost" />-->
+	<!--<add name="conn" connectionString="Data Source=lk6.linkium.net,56881; Initial Catalog=cfdi_enn; User ID=sa; Password=Jupiter10!;" />-->
+	<add name="conn" connectionString="Data Source=DESKTOP-R2Q8S1T\SQLEXPRESS; Initial Catalog=cfdi_enn; Persist Security Info=False; Integrated Security=SSPI;" />
+</connectionStrings>

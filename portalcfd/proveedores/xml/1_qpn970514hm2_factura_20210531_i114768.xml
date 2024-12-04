@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="I" Folio="114768" Fecha="2021-05-31T16:47:25" FormaPago="03" Sello="WsuHfTWs8wKxE+w2d+KMCkr/j4Yips86pSu2ezPiPVXDgZy+LVpjaf9SJ+4+S9/NfYBxtl6/5kP6OSNSQ1CauYgxK5OMKmGfy7uA8PCAvSxKFNwdzmbxjFF+beSdhZbEQYlI1ACG5rEGVB52nGl4tBMecmdw0tugaXLvwMdwzcgNtIwkK+QHch9CCMARp54zOhSq/nvw3JbsZ5/srDWruKxJXO1bxPxW0CVHdbZeYxASWoBl8JValWiqJezhFFqewELAgsY2EsfyvUmhRX6iZpaDRYHcrEIMj2gbx4F1TEtj3RhggcNvvQIP6EFEsciWRIh3M0aQw5XyrX3u0JT6jw==" NoCertificado="00001000000507492866" Certificado="MIIGOjCCBCKgAwIBAgIUMDAwMDEwMDAwMDA1MDc0OTI4NjYwDQYJKoZIhvcNAQELBQAwggGEMSAwHgYDVQQDDBdBVVRPUklEQUQgQ0VSVElGSUNBRE9SQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxKjAoBgkqhkiG9w0BCQEWG2NvbnRhY3RvLnRlY25pY29Ac2F0LmdvYi5teDEmMCQGA1UECQwdQVYuIEhJREFMR08gNzcsIENPTC4gR1VFUlJFUk8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQQ0lVREFEIERFIE1FWElDTzETMBEGA1UEBwwKQ1VBVUhURU1PQzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMVwwWgYJKoZIhvcNAQkCE01yZXNwb25zYWJsZTogQURNSU5JU1RSQUNJT04gQ0VOVFJBTCBERSBTRVJWSUNJT1MgVFJJQlVUQVJJT1MgQUwgQ09OVFJJQlVZRU5URTAeFw0yMTA1MjQxNTE1MTlaFw0yNTA1MjQxNTE1MTlaMIIBBzEuMCwGA1UEAxMlUVVJTUlDT1MgWSBQQVBFTEVTIERFTCBOT1JURSBTQSBERSBDVjEuMCwGA1UEKRMlUVVJTUlDT1MgWSBQQVBFTEVTIERFTCBOT1JURSBTQSBERSBDVjEuMCwGA1UEChMlUVVJTUlDT1MgWSBQQVBFTEVTIERFTCBOT1JURSBTQSBERSBDVjElMCMGA1UELRMcUVBOOTcwNTE0SE0yIC8gR09BSjY5MDUwNTdFMTEeMBwGA1UEBRMVIC8gR09BSjY5MDUwNUhUU05OUjAwMS4wLAYDVQQLEyVRVUlNSUNPUyBZIFBBUEVMRVMgREVMIE5PUlRFIFNBIERFIENWMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6uGRozq55bwFl1XM0IJepJwo2xJwcGn4/fjNiRHAyxxkQgFZcGUnrfYHai+XHp1KnpQ+bNJpgJvu5lnMsQnQjQSHbx1sFVvndwzFr4qrVHPIU7NW0aA961AaH4FDqjEImfmlWlzGU3jiI42q4dw/7lDPu8VMwB3TEW/K3oieLcPTVjpz99br1z2/TG4hhmT6sIxYFtu+N1JuasVpnvSHPgox0EQiB2vsrc2mjh4k9IZxjUsZay2YmEHqcDmHQcXhnpWY1nVwmhxJ/RutIhxOoOcZnCO73jVaOyZdEeRxYBqc6SaEVTjg2qP0Ip65TX+O2IMCPz0W0NHzRemFNajnJQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAQ7GXTFBLpk/FszRyV0y+x9l4inLxLKZdexyNNgEShkxwW8o3Gc3KAthJesbK2XmjKg4H2vrwqrQxC96lwWFELloMV1W7yWWziIkgdtFL2BNXYLJS4J8iUJzvR9zaYINgeL8MKPCREbqBIxjs2P2eIo9gOv0QYa/2cfIpoPeQmImOH/5vZGMOve5VXSN3bi30xPwJQ4G+smtYGZsAKeZynZc0cE8QE/BBYL0WBrlzDtNEnWhHRCOA/Z2OrDkMDytx0A2CoXk0JvEyke8TxJ6H9+l4weZnigDKKkid9IQB81YJqdlEuG1JkrroLVBwjQyGQiVA1W/xP3FfKkfRm2VVKFHg0o480PGvqOg2bEPVDK/YrA4SSo/IbxP7ClxaM1IMF0N8dhXf1KMmG4TNh7ok3yI2PXViMTb5SSmb/G7IROjlpRgpz+fE4REBnTMyOU8x9MRClKW9VjqmAhctnnmn59/zR5F8fSB4xnNgKga9GrZ0r1fN2YBgXz29SEc/4DZmnrLwq44LHYCVZ32hx4KoThMoEzjWRhW7lj1dE1QvBMygFCsS7HvNbh5YSxuGjAQqkqVKTD7+8YwqhBslx3/9Y4BMz52HN/nEwRl3HoiLaYuekluI6QWYDSmA6GhVewFow44MGc4FlUCA+w/Skrl5G59nBpPIEgwgDnvn7VFXz+E=" CondicionesDePago="Pago a 30 días" SubTotal="5257.74" Moneda="MXN" TipoCambio="1" Total="6098.98" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="64500">
+    <cfdi:Emisor Rfc="QPN970514HM2" Nombre="QUIMICOS Y PAPELES DEL NORTE SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="PUSE8204266F1" Nombre="ERICK DANIEL" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="53131627" Cantidad="5.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="SHAMPOO P/MANOS GOJO 5361-02" ValorUnitario="494.00" Importe="2470.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2470.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="395.200000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="47131501" Cantidad="50.00" ClaveUnidad="MTR" Unidad="METRO" Descripcion="FRANELA BLANCA 50 CM ANCHO" ValorUnitario="8.92" Importe="446.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="446.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="71.360000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="53131626" Cantidad="3.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="GOJO ADV GCFMTFX 12L 5393" ValorUnitario="780.58" Importe="2341.74">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2341.740000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="374.678400"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="841.24">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="841.24"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" FechaTimbrado="2021-05-31T16:52:56" UUID="fc796191-ea90-42f0-9e15-f3e21ef19799" NoCertificadoSAT="00001000000507247013" SelloCFD="WsuHfTWs8wKxE+w2d+KMCkr/j4Yips86pSu2ezPiPVXDgZy+LVpjaf9SJ+4+S9/NfYBxtl6/5kP6OSNSQ1CauYgxK5OMKmGfy7uA8PCAvSxKFNwdzmbxjFF+beSdhZbEQYlI1ACG5rEGVB52nGl4tBMecmdw0tugaXLvwMdwzcgNtIwkK+QHch9CCMARp54zOhSq/nvw3JbsZ5/srDWruKxJXO1bxPxW0CVHdbZeYxASWoBl8JValWiqJezhFFqewELAgsY2EsfyvUmhRX6iZpaDRYHcrEIMj2gbx4F1TEtj3RhggcNvvQIP6EFEsciWRIh3M0aQw5XyrX3u0JT6jw==" SelloSAT="cz6k+z+bGwLR5z6xFz4L1YIlnose0eeuz2XGu5zX3FN1YqkZLHKXLL7xP+54dU4vF4izb9ASmcFqEFJmzFfRDElbN1F/rLQYB5gPBDnqkB4FLMkQJrvDc4SQ/ohMAWygRn7PlpBJK1Ig072kK1h92SvdT+t/RdvI0Ci4aer0DqklwSRA1kbLPmv9YLr9WU4FVZEPF9L+0rsjVbcX1j2Y2WjJ6xsTYCyVP7ZnCca+pNRNiq+4BYhNsaMWq319b6qmpE2S9C30KCFD3Hlt7164PqlfExQUfiNsD/6aQcZFr4us0gdlxvH081lnxSb2cjlawsuhtc+CQ20PRDFzK1yq7A==" RfcProvCertif="CAD100607RY8"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

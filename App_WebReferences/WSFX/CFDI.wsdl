@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsp200409="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp200607="http://www.w3.org/2006/07/ws-policy" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns0="http://www.facturaxion.com/" targetNamespace="http://www.facturaxion.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:schema>
+      <xsd:import schemaLocation="CFDI.asmx.xsd1.xsd" namespace="http://www.facturaxion.com/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GenerarCFDIPruebaSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarCFDIPrueba" />
+  </wsdl:message>
+  <wsdl:message name="GenerarCFDIPruebaSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarCFDIPruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerarCFDISoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarCFDI" />
+  </wsdl:message>
+  <wsdl:message name="GenerarCFDISoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarCFDIResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbreLotePruebaSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbreLotePrueba" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbreLotePruebaSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbreLotePruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbreLoteSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbreLote" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbreLoteSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbreLoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbrePruebaSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbrePrueba" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbrePruebaSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbrePruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbreSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbre" />
+  </wsdl:message>
+  <wsdl:message name="GenerarTimbreSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GenerarTimbreResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseCancelacionPruebaSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseCancelacionPrueba" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseCancelacionPruebaSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseCancelacionPruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseCancelacionSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseCancelacion" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseCancelacionSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseCancelacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseRecepcionPruebaSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseRecepcionPrueba" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseRecepcionPruebaSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseRecepcionPruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseRecepcionSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseRecepcion" />
+  </wsdl:message>
+  <wsdl:message name="GetAcuseRecepcionSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetAcuseRecepcionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIdSucursalPruebaSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetIdSucursalPrueba" />
+  </wsdl:message>
+  <wsdl:message name="GetIdSucursalPruebaSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetIdSucursalPruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIdSucursalSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetIdSucursal" />
+  </wsdl:message>
+  <wsdl:message name="GetIdSucursalSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:GetIdSucursalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReportarCancelacionPruebaSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:ReportarCancelacionPrueba" />
+  </wsdl:message>
+  <wsdl:message name="ReportarCancelacionPruebaSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:ReportarCancelacionPruebaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReportarCancelacionSoapIn">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:ReportarCancelacion" />
+  </wsdl:message>
+  <wsdl:message name="ReportarCancelacionSoapOut">
+    <wsdl:part xmlns:xsns="http://www.facturaxion.com/" name="parameters" element="xsns:ReportarCancelacionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TimbreFiscalDigitalSoap">
+    <wsdl:operation name="GenerarCFDI">
+      <wsdl:input name="GenerarCFDIRequest" message="ns0:GenerarCFDISoapIn" />
+      <wsdl:output name="GenerarCFDIResponse" message="ns0:GenerarCFDISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarCFDIPrueba">
+      <wsdl:input name="GenerarCFDIPruebaRequest" message="ns0:GenerarCFDIPruebaSoapIn" />
+      <wsdl:output name="GenerarCFDIPruebaResponse" message="ns0:GenerarCFDIPruebaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbre">
+      <wsdl:input name="GenerarTimbreRequest" message="ns0:GenerarTimbreSoapIn" />
+      <wsdl:output name="GenerarTimbreResponse" message="ns0:GenerarTimbreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbreLote">
+      <wsdl:input name="GenerarTimbreLoteRequest" message="ns0:GenerarTimbreLoteSoapIn" />
+      <wsdl:output name="GenerarTimbreLoteResponse" message="ns0:GenerarTimbreLoteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbreLotePrueba">
+      <wsdl:input name="GenerarTimbreLotePruebaRequest" message="ns0:GenerarTimbreLotePruebaSoapIn" />
+      <wsdl:output name="GenerarTimbreLotePruebaResponse" message="ns0:GenerarTimbreLotePruebaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbrePrueba">
+      <wsdl:input name="GenerarTimbrePruebaRequest" message="ns0:GenerarTimbrePruebaSoapIn" />
+      <wsdl:output name="GenerarTimbrePruebaResponse" message="ns0:GenerarTimbrePruebaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseCancelacion">
+      <wsdl:input name="GetAcuseCancelacionRequest" message="ns0:GetAcuseCancelacionSoapIn" />
+      <wsdl:output name="GetAcuseCancelacionResponse" message="ns0:GetAcuseCancelacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseCancelacionPrueba">
+      <wsdl:input name="GetAcuseCancelacionPruebaRequest" message="ns0:GetAcuseCancelacionPruebaSoapIn" />
+      <wsdl:output name="GetAcuseCancelacionPruebaResponse" message="ns0:GetAcuseCancelacionPruebaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseRecepcion">
+      <wsdl:input name="GetAcuseRecepcionRequest" message="ns0:GetAcuseRecepcionSoapIn" />
+      <wsdl:output name="GetAcuseRecepcionResponse" message="ns0:GetAcuseRecepcionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseRecepcionPrueba">
+      <wsdl:input name="GetAcuseRecepcionPruebaRequest" message="ns0:GetAcuseRecepcionPruebaSoapIn" />
+      <wsdl:output name="GetAcuseRecepcionPruebaResponse" message="ns0:GetAcuseRecepcionPruebaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIdSucursal">
+      <wsdl:input name="GetIdSucursalRequest" message="ns0:GetIdSucursalSoapIn" />
+      <wsdl:output name="GetIdSucursalResponse" message="ns0:GetIdSucursalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIdSucursalPrueba">
+      <wsdl:input name="GetIdSucursalPruebaRequest" message="ns0:GetIdSucursalPruebaSoapIn" />
+      <wsdl:output name="GetIdSucursalPruebaResponse" message="ns0:GetIdSucursalPruebaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportarCancelacion">
+      <wsdl:input name="ReportarCancelacionRequest" message="ns0:ReportarCancelacionSoapIn" />
+      <wsdl:output name="ReportarCancelacionResponse" message="ns0:ReportarCancelacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportarCancelacionPrueba">
+      <wsdl:input name="ReportarCancelacionPruebaRequest" message="ns0:ReportarCancelacionPruebaSoapIn" />
+      <wsdl:output name="ReportarCancelacionPruebaResponse" message="ns0:ReportarCancelacionPruebaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TimbreFiscalDigitalSoap" type="ns0:TimbreFiscalDigitalSoap">
+    <soap11:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GenerarCFDI">
+      <soap11:operation soapAction="http://www.facturaxion.com/GenerarCFDI" style="document" />
+      <wsdl:input name="GenerarCFDIRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarCFDIResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarCFDIPrueba">
+      <soap11:operation soapAction="http://www.facturaxion.com/GenerarCFDIPrueba" style="document" />
+      <wsdl:input name="GenerarCFDIPruebaRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarCFDIPruebaResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbre">
+      <soap11:operation soapAction="http://www.facturaxion.com/GenerarTimbre" style="document" />
+      <wsdl:input name="GenerarTimbreRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbreResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbreLote">
+      <soap11:operation soapAction="http://www.facturaxion.com/GenerarTimbreLote" style="document" />
+      <wsdl:input name="GenerarTimbreLoteRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbreLoteResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbreLotePrueba">
+      <soap11:operation soapAction="http://www.facturaxion.com/GenerarTimbreLotePrueba" style="document" />
+      <wsdl:input name="GenerarTimbreLotePruebaRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbreLotePruebaResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbrePrueba">
+      <soap11:operation soapAction="http://www.facturaxion.com/GenerarTimbrePrueba" style="document" />
+      <wsdl:input name="GenerarTimbrePruebaRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbrePruebaResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseCancelacion">
+      <soap11:operation soapAction="http://www.facturaxion.com/GetAcuseCancelacion" style="document" />
+      <wsdl:input name="GetAcuseCancelacionRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseCancelacionResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseCancelacionPrueba">
+      <soap11:operation soapAction="http://www.facturaxion.com/GetAcuseCancelacionPrueba" style="document" />
+      <wsdl:input name="GetAcuseCancelacionPruebaRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseCancelacionPruebaResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseRecepcion">
+      <soap11:operation soapAction="http://www.facturaxion.com/GetAcuseRecepcion" style="document" />
+      <wsdl:input name="GetAcuseRecepcionRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseRecepcionResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseRecepcionPrueba">
+      <soap11:operation soapAction="http://www.facturaxion.com/GetAcuseRecepcionPrueba" style="document" />
+      <wsdl:input name="GetAcuseRecepcionPruebaRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseRecepcionPruebaResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIdSucursal">
+      <soap11:operation soapAction="http://www.facturaxion.com/GetIdSucursal" style="document" />
+      <wsdl:input name="GetIdSucursalRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetIdSucursalResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIdSucursalPrueba">
+      <soap11:operation soapAction="http://www.facturaxion.com/GetIdSucursalPrueba" style="document" />
+      <wsdl:input name="GetIdSucursalPruebaRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetIdSucursalPruebaResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportarCancelacion">
+      <soap11:operation soapAction="http://www.facturaxion.com/ReportarCancelacion" style="document" />
+      <wsdl:input name="ReportarCancelacionRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReportarCancelacionResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportarCancelacionPrueba">
+      <soap11:operation soapAction="http://www.facturaxion.com/ReportarCancelacionPrueba" style="document" />
+      <wsdl:input name="ReportarCancelacionPruebaRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReportarCancelacionPruebaResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TimbreFiscalDigitalSoap12" type="ns0:TimbreFiscalDigitalSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GenerarCFDI">
+      <soap12:operation soapAction="http://www.facturaxion.com/GenerarCFDI" style="document" />
+      <wsdl:input name="GenerarCFDIRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarCFDIResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarCFDIPrueba">
+      <soap12:operation soapAction="http://www.facturaxion.com/GenerarCFDIPrueba" style="document" />
+      <wsdl:input name="GenerarCFDIPruebaRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarCFDIPruebaResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbre">
+      <soap12:operation soapAction="http://www.facturaxion.com/GenerarTimbre" style="document" />
+      <wsdl:input name="GenerarTimbreRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbreResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbreLote">
+      <soap12:operation soapAction="http://www.facturaxion.com/GenerarTimbreLote" style="document" />
+      <wsdl:input name="GenerarTimbreLoteRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbreLoteResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbreLotePrueba">
+      <soap12:operation soapAction="http://www.facturaxion.com/GenerarTimbreLotePrueba" style="document" />
+      <wsdl:input name="GenerarTimbreLotePruebaRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbreLotePruebaResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarTimbrePrueba">
+      <soap12:operation soapAction="http://www.facturaxion.com/GenerarTimbrePrueba" style="document" />
+      <wsdl:input name="GenerarTimbrePruebaRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GenerarTimbrePruebaResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseCancelacion">
+      <soap12:operation soapAction="http://www.facturaxion.com/GetAcuseCancelacion" style="document" />
+      <wsdl:input name="GetAcuseCancelacionRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseCancelacionResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseCancelacionPrueba">
+      <soap12:operation soapAction="http://www.facturaxion.com/GetAcuseCancelacionPrueba" style="document" />
+      <wsdl:input name="GetAcuseCancelacionPruebaRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseCancelacionPruebaResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseRecepcion">
+      <soap12:operation soapAction="http://www.facturaxion.com/GetAcuseRecepcion" style="document" />
+      <wsdl:input name="GetAcuseRecepcionRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseRecepcionResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcuseRecepcionPrueba">
+      <soap12:operation soapAction="http://www.facturaxion.com/GetAcuseRecepcionPrueba" style="document" />
+      <wsdl:input name="GetAcuseRecepcionPruebaRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAcuseRecepcionPruebaResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIdSucursal">
+      <soap12:operation soapAction="http://www.facturaxion.com/GetIdSucursal" style="document" />
+      <wsdl:input name="GetIdSucursalRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetIdSucursalResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIdSucursalPrueba">
+      <soap12:operation soapAction="http://www.facturaxion.com/GetIdSucursalPrueba" style="document" />
+      <wsdl:input name="GetIdSucursalPruebaRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetIdSucursalPruebaResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportarCancelacion">
+      <soap12:operation soapAction="http://www.facturaxion.com/ReportarCancelacion" style="document" />
+      <wsdl:input name="ReportarCancelacionRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReportarCancelacionResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportarCancelacionPrueba">
+      <soap12:operation soapAction="http://www.facturaxion.com/ReportarCancelacionPrueba" style="document" />
+      <wsdl:input name="ReportarCancelacionPruebaRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReportarCancelacionPruebaResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TimbreFiscalDigital">
+    <wsdl:port name="TimbreFiscalDigitalSoap" binding="ns0:TimbreFiscalDigitalSoap">
+      <soap11:address location="https://timbre02.facturaxion.net:443/CFDI.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TimbreFiscalDigitalSoap12" binding="ns0:TimbreFiscalDigitalSoap12">
+      <soap12:address location="https://timbre02.facturaxion.net:443/CFDI.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:schema xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.facturaxion.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" elementFormDefault="qualified" targetNamespace="http://www.facturaxion.com/" xmlns:s="http://www.w3.org/2001/XMLSchema">
+  <s:element name="GenerarTimbre">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarTimbreResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GenerarTimbreResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarTimbreLote">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+        <s:element minOccurs="0" maxOccurs="1" name="xmlZip" type="s:base64Binary" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarTimbreLoteResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GenerarTimbreLoteResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultadoZip" type="s:base64Binary" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="ReportarCancelacion">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="ReportarCancelacionResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="ReportarCancelacionResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarCFDI">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarCFDIResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GenerarCFDIResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseRecepcion">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseRecepcionResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GetAcuseRecepcionResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseCancelacion">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseCancelacionResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GetAcuseCancelacionResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetIdSucursal">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetIdSucursalResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GetIdSucursalResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarTimbrePrueba">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarTimbrePruebaResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GenerarTimbrePruebaResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarTimbreLotePrueba">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+        <s:element minOccurs="0" maxOccurs="1" name="xmlZip" type="s:base64Binary" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarTimbreLotePruebaResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GenerarTimbreLotePruebaResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultadoZip" type="s:base64Binary" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="ReportarCancelacionPrueba">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="ReportarCancelacionPruebaResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="ReportarCancelacionPruebaResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarCFDIPrueba">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GenerarCFDIPruebaResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GenerarCFDIPruebaResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseRecepcionPrueba">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseRecepcionPruebaResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GetAcuseRecepcionPruebaResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseCancelacionPrueba">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetAcuseCancelacionPruebaResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GetAcuseCancelacionPruebaResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetIdSucursalPrueba">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="parametros" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+  <s:element name="GetIdSucursalPruebaResponse">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="1" maxOccurs="1" name="GetIdSucursalPruebaResult" type="s:boolean" />
+        <s:element minOccurs="0" maxOccurs="1" name="resultado" type="s:string" />
+      </s:sequence>
+    </s:complexType>
+  </s:element>
+</s:schema>

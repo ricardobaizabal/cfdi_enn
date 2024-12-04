@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="I" Folio="117313" Fecha="2021-07-28T08:44:25" FormaPago="03" Sello="XQ8npwLQBKtf0VdX7e7f2PaLwPGuq1e7Kg5PeLuEyUxWGed+iDYuTBAh75MVVpqhpljNk6dMPsN+Zb76WNy0qmKVWJcM7p862k/0iHJYBJbHZXGDdkdb7dTqWTNDTUIMDgrnwnvzwNBY1QUvB7SNay2nRdGSdoBYMtfTjz9Vw8MhV9BHkgQcs4HhDCkeH9nOrCK5otmSVvoOuxrppF0z/YZ/rnNC/qugIM2zUeRpLT4o90/KwHFfTt+NFQQqkTsqtnERwZIgXfKgMr1LFikyBP7jXGG/PteCO26Yws7a+Zf40xWTbTioNnSQdGGNGqCwtbPmQnSmDGwaKBsVJ3e+sQ==" NoCertificado="00001000000507492866" Certificado="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" CondicionesDePago="Pago a 30 días" SubTotal="2197.85" Moneda="MXN" TipoCambio="1" Total="2549.51" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="64500">
+    <cfdi:Emisor Rfc="QPN970514HM2" Nombre="QUIMICOS Y PAPELES DEL NORTE SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="PUSE8204266F1" Nombre="ERICK DANIEL" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="14111703" Cantidad="5.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="FAPSA ECO K160 C/6 TOALLA EN ROLLO" ValorUnitario="194.81" Importe="974.05">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="974.050000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="155.848000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="14111703" Cantidad="5.00" Descripcion="FAPSA ECO K160 C/6 TOALLA EN ROLLO" NoIdentificacion="3332"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="14111703" Cantidad="5.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="SEDITAS INTERDOBLADA BLANCA 10 DE 200, Toalla interdoblada blanca c/2000" ValorUnitario="144.00" Importe="720.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="720.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="115.200000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="14111703" Cantidad="5.00" Descripcion="SEDITAS INTERDOBLADA BLANCA 10 DE 200" NoIdentificacion="5071"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="47131812" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="WIESE DESINFECTANTE FRESH LINE 400ML/323" ValorUnitario="50.38" Importe="503.80">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="503.800000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="80.608000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="47131812" Cantidad="10.00" Descripcion="WIESE DESINFECTANTE FRESH LINE 400ML/323" NoIdentificacion="5085"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="351.66">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="351.66"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="ebdda87f-876d-4790-bced-9a03c47a425d" FechaTimbrado="2021-07-28T08:49:37" RfcProvCertif="LSO1306189R5" SelloCFD="XQ8npwLQBKtf0VdX7e7f2PaLwPGuq1e7Kg5PeLuEyUxWGed+iDYuTBAh75MVVpqhpljNk6dMPsN+Zb76WNy0qmKVWJcM7p862k/0iHJYBJbHZXGDdkdb7dTqWTNDTUIMDgrnwnvzwNBY1QUvB7SNay2nRdGSdoBYMtfTjz9Vw8MhV9BHkgQcs4HhDCkeH9nOrCK5otmSVvoOuxrppF0z/YZ/rnNC/qugIM2zUeRpLT4o90/KwHFfTt+NFQQqkTsqtnERwZIgXfKgMr1LFikyBP7jXGG/PteCO26Yws7a+Zf40xWTbTioNnSQdGGNGqCwtbPmQnSmDGwaKBsVJ3e+sQ==" NoCertificadoSAT="00001000000408254801" SelloSAT="OpYpPcrHsnD96e+Zl6utDyJgZakrt22NQCYuR3rnt51xQoFkdO1WBp+9zW5RjhOw21INKOSvA4cGz50cZf0g2R04+P34v1d9YZobcPnFlm9Af+B7o9SsPReWTp3tEQTrTJsgC5pHssgjIYzPr+DLDscQ33adOrVQ8+X7DwIjhsA5I1n2v4r3tkA8eBOo9dptIrjMfr6GbiIQXSsUBuhWNJC77rDhNli7jsgrKGNrFfCLaugx2bfK+eT4DmO78hjdA1qFro99FvC2NcZvhktjqzLnML03nqBvA54u8vsvGzEaKXF1xpACKQ4wSzZf34cdMxpW6JHQG6iE5qNJvfvqNg==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

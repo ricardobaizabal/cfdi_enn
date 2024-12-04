@@ -1,0 +1,136 @@
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\obj\Debug\LinkiumCFDI.Resources.resources
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.Cache
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\bin\LinkiumCFDI.dll
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\bin\LinkiumCFDI.pdb
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\bin\LinkiumCFDI.xml
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\bin\Formatos.pdb
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\bin\Formatos.xml
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\bin\Telerik.Web.UI.xml
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\obj\Debug\LinkiumCFDI.dll
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\obj\Debug\LinkiumCFDI.xml
+C:\Users\ACER\Documents\Visual Studio 2008\Projects\LinkiumCFDI\LinkiumCFDI\obj\Debug\LinkiumCFDI.pdb
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\bin\LinkiumCFDI.dll
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\bin\LinkiumCFDI.pdb
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\bin\LinkiumCFDI.xml
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\bin\Formatos.pdb
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\bin\Formatos.xml
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\obj\Debug\LinkiumCFDI.Resources.resources
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.Cache
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\obj\Debug\LinkiumCFDI.dll
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\obj\Debug\LinkiumCFDI.xml
+C:\Users\ACER\Documents\Proyectos\Factura Electronica 2013\App\obj\Debug\LinkiumCFDI.pdb
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\obj\Debug\LinkiumCFDI.Resources.resources
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.Cache
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\obj\Debug\LinkiumCFDI.dll
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\obj\Debug\LinkiumCFDI.xml
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\obj\Debug\LinkiumCFDI.pdb
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\bin\LinkiumCFDI.dll
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\bin\LinkiumCFDI.pdb
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\bin\LinkiumCFDI.xml
+C:\Users\Baizabal\Documents\Proyectos\Linkium\template\bin\ChilkatDotNet2.dll
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\LinkiumCFDI.dll.config
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\LinkiumCFDI.dll
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\LinkiumCFDI.pdb
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\LinkiumCFDI.xml
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\Telerik.Reporting.dll
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\Telerik.Reporting.pdb
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\Telerik.Reporting.xml
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\bin\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.FormatoOrdenCompra.resources
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.formato_cfdi_osdan.resources
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.Resources.resources
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.cache
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.vbproj.CoreCompileInputs.cache
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.vbproj.CopyComplete
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.dll
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.xml
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.pdb
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.formato_cotizaciones_osdan.resources
+C:\Users\DT-ELITEDESK-HP\Documents\Visual Studio 2019\Proyects\enn\obj\Debug\LinkiumCFDI.vbproj.AssemblyReference.cache
+G:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.dll.config
+G:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.dll
+G:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.pdb
+G:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.xml
+G:\DT - ACTECK\Documents\enn\bin\Microsoft.AnalysisServices.AdomdClient.dll
+G:\DT - ACTECK\Documents\enn\bin\Telerik.Reporting.pdb
+G:\DT - ACTECK\Documents\enn\bin\Telerik.Reporting.xml
+G:\DT - ACTECK\Documents\enn\bin\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.AssemblyReference.cache
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.FormatoOrdenCompra.resources
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.formato_cfdi_osdan.resources
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.formato_cotizaciones_osdan.resources
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.Resources.resources
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.cache
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.CoreCompileInputs.cache
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.dll
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.xml
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.pdb
+G:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.CopyComplete
+D:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.dll.config
+D:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.dll
+D:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.pdb
+D:\DT - ACTECK\Documents\enn\bin\LinkiumCFDI.xml
+D:\DT - ACTECK\Documents\enn\bin\Microsoft.AnalysisServices.AdomdClient.dll
+D:\DT - ACTECK\Documents\enn\bin\Telerik.Reporting.pdb
+D:\DT - ACTECK\Documents\enn\bin\Telerik.Reporting.xml
+D:\DT - ACTECK\Documents\enn\bin\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.AssemblyReference.cache
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.FormatoOrdenCompra.resources
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.formato_cfdi_osdan.resources
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.formato_cotizaciones_osdan.resources
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.Resources.resources
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.cache
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.CoreCompileInputs.cache
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.vbproj.CopyComplete
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.dll
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.xml
+D:\DT - ACTECK\Documents\enn\obj\Debug\LinkiumCFDI.pdb
+C:\Users\Lenovo\Downloads\enn\bin\LinkiumCFDI.dll.config
+C:\Users\Lenovo\Downloads\enn\bin\LinkiumCFDI.dll
+C:\Users\Lenovo\Downloads\enn\bin\LinkiumCFDI.pdb
+C:\Users\Lenovo\Downloads\enn\bin\LinkiumCFDI.xml
+C:\Users\Lenovo\Downloads\enn\bin\Telerik.Reporting.dll
+C:\Users\Lenovo\Downloads\enn\bin\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\Lenovo\Downloads\enn\bin\Telerik.Reporting.pdb
+C:\Users\Lenovo\Downloads\enn\bin\Telerik.Reporting.xml
+C:\Users\Lenovo\Downloads\enn\bin\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.vbproj.AssemblyReference.cache
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.FormatoOrdenCompra.resources
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.formato_cfdi_osdan.resources
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.formato_cotizaciones_osdan.resources
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.Resources.resources
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.cache
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.vbproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.vbproj.CopyComplete
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.dll
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.xml
+C:\Users\Lenovo\Downloads\enn\obj\Debug\LinkiumCFDI.pdb
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.vbproj.AssemblyReference.cache
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.FormatoOrdenCompra.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_cfdi_osdan.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_complemento33iu.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_complemento40.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_cotizacion_parte3.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_cotizacion_parte2.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_cotizacion_parte1.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_cotizaciones_images.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.formato_cotizaciones_osdan.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.Resources.resources
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.vbproj.GenerateResource.cache
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.vbproj.CoreCompileInputs.cache
+C:\Users\sopor\OneDrive\Escritorio\enn\bin\LinkiumCFDI.dll.config
+C:\Users\sopor\OneDrive\Escritorio\enn\bin\LinkiumCFDI.dll
+C:\Users\sopor\OneDrive\Escritorio\enn\bin\LinkiumCFDI.pdb
+C:\Users\sopor\OneDrive\Escritorio\enn\bin\LinkiumCFDI.xml
+C:\Users\sopor\OneDrive\Escritorio\enn\bin\Telerik.Reporting.dll
+C:\Users\sopor\OneDrive\Escritorio\enn\bin\Telerik.Reporting.pdb
+C:\Users\sopor\OneDrive\Escritorio\enn\bin\Telerik.Reporting.xml
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.vbproj.CopyComplete
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.dll
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.xml
+C:\Users\sopor\OneDrive\Escritorio\enn\obj\Debug\LinkiumCFDI.pdb

@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\sopor\OneDrive\Escritorio\enn\LinkiumCFDI.vbproj" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\actualizar_UUID.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\actualizar_UUID.aspx" />
+  <event action="Analyze" type="Success" name="actualizar_UUID.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\actualizar_UUID.aspx" />
+  <event action="Analyze" type="Success" name="Resource.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\App_GlobalResources\Resource.resx" />
+  <event action="Analyze" type="Success" name="Binary References" path="C:\Users\sopor\OneDrive\Escritorio\enn\bin\" />
+  <event action="Analyze" type="Success" name="Formatos.dll.config" path="C:\Users\sopor\OneDrive\Escritorio\enn\bin\Formatos.dll.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\Default.aspx" />
+  <event action="Analyze" type="Success" name="formato_cfdi_osdan.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\formato_cfdi_osdan.resx" />
+  <event action="Analyze" type="Success" name="formato_complemento40.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\formato_complemento40.resx" />
+  <event action="Analyze" type="Success" name="formato_cotizacion_parte1.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\formato_cotizacion_parte1.resx" />
+  <event action="Analyze" type="Success" name="formato_cotizacion_parte2.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\formato_cotizacion_parte2.resx" />
+  <event action="Analyze" type="Success" name="formato_cotizacion_parte3.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\formato_cotizacion_parte3.resx" />
+  <event action="Analyze" type="Success" name="formato_cotizaciones_images.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\formato_cotizaciones_images.resx" />
+  <event action="Analyze" type="Success" name="formato_cotizaciones_osdan.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\formato_cotizaciones_osdan.resx" />
+  <event action="Analyze" type="Success" name="FormatoOrdenCompra.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\formatos pdf\FormatoOrdenCompra.resx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\MasterPage.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\MasterPage.master" />
+  <event action="Analyze" type="Success" name="MasterPage.master" path="C:\Users\sopor\OneDrive\Escritorio\enn\MasterPage.master" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\sopor\OneDrive\Escritorio\enn\My Project\Resources.resx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\administracion\recepcion_facturas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\administracion\recepcion_facturas.aspx" />
+  <event action="Analyze" type="Success" name="recepcion_facturas.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\administracion\recepcion_facturas.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\AgregarCotizacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\AgregarCotizacion.aspx" />
+  <event action="Analyze" type="Success" name="AgregarCotizacion.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\AgregarCotizacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\AgregarRemision.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\AgregarRemision.aspx" />
+  <event action="Analyze" type="Success" name="AgregarRemision.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\AgregarRemision.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\abastecimiento.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\abastecimiento.aspx" />
+  <event action="Analyze" type="Success" name="abastecimiento.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\abastecimiento.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\ajustes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\ajustes.aspx" />
+  <event action="Analyze" type="Success" name="ajustes.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\ajustes.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\Conceptos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\Conceptos.aspx" />
+  <event action="Analyze" type="Success" name="Conceptos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\Conceptos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\entradas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\entradas.aspx" />
+  <event action="Analyze" type="Success" name="entradas.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\entradas.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\inventario.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\inventario.aspx" />
+  <event action="Analyze" type="Success" name="inventario.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\inventario.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\kardex.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\kardex.aspx" />
+  <event action="Analyze" type="Success" name="kardex.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\kardex.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\Productos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\Productos.aspx" />
+  <event action="Analyze" type="Success" name="Productos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\almacen\Productos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Aduana.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Aduana.aspx" />
+  <event action="Analyze" type="Success" name="Aduana.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Aduana.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\ClaveUnidad.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\ClaveUnidad.aspx" />
+  <event action="Analyze" type="Success" name="ClaveUnidad.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\ClaveUnidad.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\CodigoPostal.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\CodigoPostal.aspx" />
+  <event action="Analyze" type="Success" name="CodigoPostal.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\CodigoPostal.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\FormaPago.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\FormaPago.aspx" />
+  <event action="Analyze" type="Success" name="FormaPago.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\FormaPago.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Impuestos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Impuestos.aspx" />
+  <event action="Analyze" type="Success" name="Impuestos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Impuestos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\MetodoPago.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\MetodoPago.aspx" />
+  <event action="Analyze" type="Success" name="MetodoPago.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\MetodoPago.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Moneda.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Moneda.aspx" />
+  <event action="Analyze" type="Success" name="Moneda.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Moneda.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\NumPedimentoAduana.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\NumPedimentoAduana.aspx" />
+  <event action="Analyze" type="Success" name="NumPedimentoAduana.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\NumPedimentoAduana.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Países.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Países.aspx" />
+  <event action="Analyze" type="Success" name="Países.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Países.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\PatenteAduanal.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\PatenteAduanal.aspx" />
+  <event action="Analyze" type="Success" name="PatenteAduanal.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\PatenteAduanal.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\ProdServ.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\ProdServ.aspx" />
+  <event action="Analyze" type="Success" name="ProdServ.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\ProdServ.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\RegimenFiscal.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\RegimenFiscal.aspx" />
+  <event action="Analyze" type="Success" name="RegimenFiscal.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\RegimenFiscal.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TasaOCuota.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TasaOCuota.aspx" />
+  <event action="Analyze" type="Success" name="TasaOCuota.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TasaOCuota.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TipoDeComprobante.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TipoDeComprobante.aspx" />
+  <event action="Analyze" type="Success" name="TipoDeComprobante.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TipoDeComprobante.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Tipofactor.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Tipofactor.aspx" />
+  <event action="Analyze" type="Success" name="Tipofactor.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\Tipofactor.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TipoRelacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TipoRelacion.aspx" />
+  <event action="Analyze" type="Success" name="TipoRelacion.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\TipoRelacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\UsoCFDI.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\UsoCFDI.aspx" />
+  <event action="Analyze" type="Success" name="UsoCFDI.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\catalogos\UsoCFDI.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CFD.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CFD.aspx" />
+  <event action="Analyze" type="Success" name="CFD.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CFD.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CFD_Detalle.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CFD_Detalle.aspx" />
+  <event action="Analyze" type="Success" name="CFD_Detalle.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CFD_Detalle.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\claveproducto.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\claveproducto.aspx" />
+  <event action="Analyze" type="Success" name="claveproducto.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\claveproducto.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Clientes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Clientes.aspx" />
+  <event action="Analyze" type="Success" name="Clientes.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Clientes.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\ComplementoDePagos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\ComplementoDePagos.aspx" />
+  <event action="Analyze" type="Success" name="ComplementoDePagos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\ComplementoDePagos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\ComplementosEmitidos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\ComplementosEmitidos.aspx" />
+  <event action="Analyze" type="Success" name="ComplementosEmitidos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\ComplementosEmitidos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Configuracion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Configuracion.aspx" />
+  <event action="Analyze" type="Success" name="Configuracion.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Configuracion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Cotizaciones.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Cotizaciones.aspx" />
+  <event action="Analyze" type="Success" name="Cotizaciones.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Cotizaciones.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CuentasBeneficiario.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CuentasBeneficiario.aspx" />
+  <event action="Analyze" type="Success" name="CuentasBeneficiario.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\CuentasBeneficiario.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Datos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Datos.aspx" />
+  <event action="Analyze" type="Success" name="Datos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Datos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\estatus.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\estatus.aspx" />
+  <event action="Analyze" type="Success" name="estatus.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\estatus.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Facturar.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Facturar.aspx" />
+  <event action="Analyze" type="Success" name="Facturar.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Facturar.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\folios.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\folios.aspx" />
+  <event action="Analyze" type="Success" name="folios.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\folios.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Home.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Home.aspx" />
+  <event action="Analyze" type="Success" name="Home.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Home.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\inventarios\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\inventarios\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\inventarios\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\inventarios\informacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\inventarios\informacion.aspx" />
+  <event action="Analyze" type="Success" name="informacion.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\inventarios\informacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\MasterPage_PortalCFD.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\MasterPage_PortalCFD.master" />
+  <event action="Analyze" type="Success" name="MasterPage_PortalCFD.master" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\MasterPage_PortalCFD.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\OrdenesCompra.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\OrdenesCompra.aspx" />
+  <event action="Analyze" type="Success" name="OrdenesCompra.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\OrdenesCompra.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\OrdenesCompraEmitidas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\OrdenesCompraEmitidas.aspx" />
+  <event action="Analyze" type="Success" name="OrdenesCompraEmitidas.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\OrdenesCompraEmitidas.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\agregarorden.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\agregarorden.aspx" />
+  <event action="Analyze" type="Success" name="agregarorden.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\agregarorden.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\autoriza.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\autoriza.aspx" />
+  <event action="Analyze" type="Success" name="autoriza.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\autoriza.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\cuentas_banco.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\cuentas_banco.aspx" />
+  <event action="Analyze" type="Success" name="cuentas_banco.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\cuentas_banco.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\cuentas_por_pagar.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\cuentas_por_pagar.aspx" />
+  <event action="Analyze" type="Success" name="cuentas_por_pagar.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\cuentas_por_pagar.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\editarorden.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\editarorden.aspx" />
+  <event action="Analyze" type="Success" name="editarorden.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\editarorden.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\egresos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\egresos.aspx" />
+  <event action="Analyze" type="Success" name="egresos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\egresos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\facturas_recibidas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\facturas_recibidas.aspx" />
+  <event action="Analyze" type="Success" name="facturas_recibidas.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\facturas_recibidas.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\gastos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\gastos.aspx" />
+  <event action="Analyze" type="Success" name="gastos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\gastos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\informacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\informacion.aspx" />
+  <event action="Analyze" type="Success" name="informacion.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\informacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\ordenes_compra.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\ordenes_compra.aspx" />
+  <event action="Analyze" type="Success" name="ordenes_compra.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\ordenes_compra.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\proveedores.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\proveedores.aspx" />
+  <event action="Analyze" type="Success" name="proveedores.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\proveedores.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recepcion_facturas.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recepcion_facturas.aspx" />
+  <event action="Analyze" type="Success" name="recepcion_facturas.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recepcion_facturas.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recibir.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recibir.aspx" />
+  <event action="Analyze" type="Success" name="recibir.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recibir.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recibirorden.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recibirorden.aspx" />
+  <event action="Analyze" type="Success" name="recibirorden.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\proveedores\recibirorden.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Remisiones.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Remisiones.aspx" />
+  <event action="Analyze" type="Success" name="Remisiones.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Remisiones.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\actualizacionfacturasxusuario.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\actualizacionfacturasxusuario.aspx" />
+  <event action="Analyze" type="Success" name="actualizacionfacturasxusuario.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\actualizacionfacturasxusuario.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cartera.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cartera.aspx" />
+  <event action="Analyze" type="Success" name="cartera.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cartera.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraDiv.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraDiv.aspx" />
+  <event action="Analyze" type="Success" name="carteraDiv.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraDiv.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraGraf.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraGraf.aspx" />
+  <event action="Analyze" type="Success" name="carteraGraf.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraGraf.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraRet.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraRet.aspx" />
+  <event action="Analyze" type="Success" name="carteraRet.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\carteraRet.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranza.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranza.aspx" />
+  <event action="Analyze" type="Success" name="cobranza.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranza.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranzaDiv.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranzaDiv.aspx" />
+  <event action="Analyze" type="Success" name="cobranzaDiv.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranzaDiv.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranzaRet.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranzaRet.aspx" />
+  <event action="Analyze" type="Success" name="cobranzaRet.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\cobranzaRet.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\facturasxusuario.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\facturasxusuario.aspx" />
+  <event action="Analyze" type="Success" name="facturasxusuario.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\facturasxusuario.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historico.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historico.aspx" />
+  <event action="Analyze" type="Success" name="historico.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historico.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historicoDiv.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historicoDiv.aspx" />
+  <event action="Analyze" type="Success" name="historicoDiv.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historicoDiv.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historicoRet.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historicoRet.aspx" />
+  <event action="Analyze" type="Success" name="historicoRet.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\historicoRet.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\informeSATmensual.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\informeSATmensual.aspx" />
+  <event action="Analyze" type="Success" name="informeSATmensual.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\informeSATmensual.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\InformeSatMensualDiv.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\InformeSatMensualDiv.aspx" />
+  <event action="Analyze" type="Success" name="InformeSatMensualDiv.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\InformeSatMensualDiv.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresos.aspx" />
+  <event action="Analyze" type="Success" name="ingresos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresosDiv.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresosDiv.aspx" />
+  <event action="Analyze" type="Success" name="ingresosDiv.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresosDiv.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresosRet.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresosRet.aspx" />
+  <event action="Analyze" type="Success" name="ingresosRet.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\ingresosRet.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\notasdecredito.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\notasdecredito.aspx" />
+  <event action="Analyze" type="Success" name="notasdecredito.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\notasdecredito.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\productos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\productos.aspx" />
+  <event action="Analyze" type="Success" name="productos.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\reportes\productos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Reportes.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Reportes.aspx" />
+  <event action="Analyze" type="Success" name="Reportes.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Reportes.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Salir.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Salir.aspx" />
+  <event action="Analyze" type="Success" name="Salir.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Salir.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\testXML.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\testXML.aspx" />
+  <event action="Analyze" type="Success" name="testXML.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\testXML.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Timbrado.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Timbrado.aspx" />
+  <event action="Analyze" type="Success" name="Timbrado.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Timbrado.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Unidad.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Unidad.aspx" />
+  <event action="Analyze" type="Success" name="Unidad.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\Unidad.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\UserControls_PortalCFD\Menu_PortalCFD.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\UserControls_PortalCFD\Menu_PortalCFD.ascx" />
+  <event action="Analyze" type="Success" name="Menu_PortalCFD.ascx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\UserControls_PortalCFD\Menu_PortalCFD.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\UserControls_PortalCFD\SystemHeader_PortalCFD.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\UserControls_PortalCFD\SystemHeader_PortalCFD.ascx" />
+  <event action="Analyze" type="Success" name="SystemHeader_PortalCFD.ascx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\UserControls_PortalCFD\SystemHeader_PortalCFD.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\usuarios\informacion.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\usuarios\informacion.aspx" />
+  <event action="Analyze" type="Success" name="informacion.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\usuarios\informacion.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\usuarios\usuarios.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\usuarios\usuarios.aspx" />
+  <event action="Analyze" type="Success" name="usuarios.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\usuarios\usuarios.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\VerificaCertificado.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\VerificaCertificado.aspx" />
+  <event action="Analyze" type="Success" name="VerificaCertificado.aspx" path="C:\Users\sopor\OneDrive\Escritorio\enn\portalcfd\VerificaCertificado.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\sopor\OneDrive\Escritorio\enn\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\sopor\OneDrive\Escritorio\enn\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\sopor\OneDrive\Escritorio\enn\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\sopor\OneDrive\Escritorio\enn\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\sopor\OneDrive\Escritorio\enn\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\sopor\OneDrive\Escritorio\enn\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Users\sopor\OneDrive\Escritorio\enn\Web.config" />
+  <event action="Analyze" type="Success" name="LinkiumCFDI" path="C:\Users\sopor\OneDrive\Escritorio\enn\LinkiumCFDI.vbproj" />
+  <event action="Analyze" type="Success" name="LinkiumCFDI" path="C:\Users\sopor\OneDrive\Escritorio\enn\LinkiumCFDI.sln" />
+</log>

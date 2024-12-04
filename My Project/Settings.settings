@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="LinkiumCFDI_FactureHoyNT_WsEmisionTimbradoService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://wsprod1.facturehoy.com:80/CFDI/WsEmisionTimbrado</Value>
+    </Setting>
+    <Setting Name="LinkiumCFDI_FactureHoyObtenerServiciosProducccion_WsServiciosService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://wsprod1.facturehoy.com:80/CFDI/WsServicios</Value>
+    </Setting>
+    <Setting Name="LinkiumCFDI_WsCancelacion33_WsCancelacion33" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://cancelacion.facturehoy.com:80/CancelacionCFDI33/WsCancelacionCFDI33</Value>
+    </Setting>
+    <Setting Name="LinkiumCFDI_FactureHoyNT33_WsEmisionTimbrado33" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://wsprod3.facturehoy.com:80/CFDI33/WsEmisionTimbrado33</Value>
+    </Setting>
+    <Setting Name="LinkiumCFDI_SIFEI40_SIFEIService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://sat.sifei.com.mx:8443/SIFEI/SIFEI</Value>
+    </Setting>
+    <Setting Name="LinkiumCFDI_CancelacionSIFEI_Cancelacion" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://sat.sifei.com.mx:9000/CancelacionSIFEI/Cancelacion</Value>
+    </Setting>
+    <Setting Name="LinkiumCFDI_SIFEIPruebas_SIFEIService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://devcfdi.sifei.com.mx:8080/SIFEI33/SIFEI</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

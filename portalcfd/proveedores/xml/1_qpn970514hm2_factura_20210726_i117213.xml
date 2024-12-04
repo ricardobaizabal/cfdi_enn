@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="I" Folio="117213" Fecha="2021-07-26T08:46:42" FormaPago="03" Sello="fd4vmhl4Svq0spddQPQlH5UUvx1+sCqA97NqvAVZlk1k+MqUcWeO1u1EKsH9zSnTuldk7ppUvtKhS7ZRLbceZ3L3O8v6mkwJckvZhk/S0Y3b3NdtHdiDTOiDtNIHVloKTM7AfcP2UWoD+iqNB61XEwTDS3PwvdyHjf/sipcJ8duIep8cK+Dxg+xzW7gK/KAxGo41ibei6bkHrI+9/sLRv4o8cQ4sYz5kCt/snXvWSMiGCsFzSY61kFRs3qZyY0xhgN+WlsUe8msXOlEBNEFLyn4tLVZB6Go9tR11+/qeco2J1wKonwdaa8FdlGr7j+ZrenDttJbALhmQADEL/arosQ==" NoCertificado="00001000000507492866" Certificado="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" CondicionesDePago="Pago a 30 días" SubTotal="1309.48" Moneda="MXN" TipoCambio="1" Total="1519.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="64500">
+    <cfdi:Emisor Rfc="QPN970514HM2" Nombre="QUIMICOS Y PAPELES DEL NORTE SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="PUSE8204266F1" Nombre="ERICK DANIEL" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="47131613" Cantidad="1.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="BASE MOP 120 CM" ValorUnitario="65.00" Importe="65.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="65.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="10.400000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="47131613" Cantidad="1.00" Descripcion="BASE MOP 120 CM" NoIdentificacion="4605"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="47131617" Cantidad="1.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="FUNDA PARA BASE MOP 120 CM" ValorUnitario="47.78" Importe="47.78">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="47.780000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="7.644800"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="47131617" Cantidad="1.00" Descripcion="FUNDA PARA BASE MOP 120 CM" NoIdentificacion="4598"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="14111703" Cantidad="1.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="TORK ADV TROLLO BLANCA PLUG 700166" ValorUnitario="476.70" Importe="476.70">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="476.700000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="76.272000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="14111703" Cantidad="1.00" Descripcion="TORK ADV TROLLO BLANCA PLUG 700166" NoIdentificacion="2879"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="14111703" Cantidad="5.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="SEDITAS INTERDOBLADA BLANCA 10 DE 200, Toalla interdoblada blanca c/2000" ValorUnitario="144.00" Importe="720.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="720.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="115.200000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="14111703" Cantidad="5.00" Descripcion="SEDITAS INTERDOBLADA BLANCA 10 DE 200" NoIdentificacion="5071"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="209.52">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="209.52"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="2cfdba60-5bc6-4b24-912f-91985071bd8e" FechaTimbrado="2021-07-26T08:52:00" RfcProvCertif="LSO1306189R5" SelloCFD="fd4vmhl4Svq0spddQPQlH5UUvx1+sCqA97NqvAVZlk1k+MqUcWeO1u1EKsH9zSnTuldk7ppUvtKhS7ZRLbceZ3L3O8v6mkwJckvZhk/S0Y3b3NdtHdiDTOiDtNIHVloKTM7AfcP2UWoD+iqNB61XEwTDS3PwvdyHjf/sipcJ8duIep8cK+Dxg+xzW7gK/KAxGo41ibei6bkHrI+9/sLRv4o8cQ4sYz5kCt/snXvWSMiGCsFzSY61kFRs3qZyY0xhgN+WlsUe8msXOlEBNEFLyn4tLVZB6Go9tR11+/qeco2J1wKonwdaa8FdlGr7j+ZrenDttJbALhmQADEL/arosQ==" NoCertificadoSAT="00001000000408254801" SelloSAT="Ylqo2ekEqY2YatXfVBr/TpPS3eFkIpPCtkgF/qkZDqETIKkMcx7zMWyKAWthSeYjA32RMFeq0dxAZfDJm+X1TTPOEztzdCcdFTdkxYOFt2e4EVykHyhHj0muufzBipFef0FdqS1erEsRX/TugJfhny0xZGfVwD/ttN2HFSWGwwH2kHr2GIbMUunrJT5MohEnDHIru2NFrI+rqihJH5BcSyRhiNGdhPPRCHXo8sBMRo+oxtQC2DP59tIGYptALleMDXKrPvA6EI4r1jWNRyWag0tiGD7cenCsCoaq7GDL5q15wj2Y/ehQgSBT1kBdV9ozpLJtZsjtWjfjDZQ4vtlWRg==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

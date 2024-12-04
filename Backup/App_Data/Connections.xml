@@ -1,0 +1,3 @@
+﻿<connectionStrings>
+  <add name="conn" connectionString="Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=cfdi_enn;Data Source=localhost" />
+</connectionStrings>

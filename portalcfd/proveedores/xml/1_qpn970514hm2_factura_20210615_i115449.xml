@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="I" Folio="115449" Fecha="2021-06-15T17:08:06" FormaPago="03" Sello="oL31sxYPXNwlyMqjJsg+22OAKG6KXjuoumHE0XqwNdqLqYFAQsAlIdzH1R34VxuGLwGwf5YDEzo7ksbITkLQ6RIdamJVvPrWny7mg7BA9Vwiv90uYx9ESMIK7GXzT3MM/d+Kqt9aBED3WvZtm/fOvk2YAMNWcBW46U1QYko6Qd0/Tkmquzc4uSeQUkKVphhIW45Y/m1M/BQ/MGCOpQsoWe4UE94G/UmUBre+C2P8qw2wP1vsIP2mnft2ntKrWhgyTGMxdPr+SxM+EhpJKT48ozdBEWUAn0xfirKZ9xtZGLj6kQgSugW+9JmDHRPBRBQVkD/20lQ2y1XTl7wphGSYZg==" NoCertificado="00001000000507492866" Certificado="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" CondicionesDePago="Pago a 30 días" SubTotal="6561.80" Moneda="MXN" TipoCambio="1" Total="7611.69" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="64500">
+    <cfdi:Emisor Rfc="QPN970514HM2" Nombre="QUIMICOS Y PAPELES DEL NORTE SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="PUSE8204266F1" Nombre="ERICK DANIEL" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="47131617" Cantidad="8.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="FUNDA PARA BASE MOP 90 CM, Funda para trapeador tipo avión 90cm" ValorUnitario="21.80" Importe="174.40">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="174.400000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="27.904000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="14111703" Cantidad="25.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="FAPSA TROLLO BLANCA TR180 C6 TR03610" ValorUnitario="247.56" Importe="6189.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="6189.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="990.240000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="47131600" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="TRAPEADOR DE TELA TIPO MAGITEL" ValorUnitario="19.84" Importe="198.40">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="198.400000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="31.744000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="1049.89">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1049.89"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="ceb69f50-bc69-4b04-b8d6-a06a14765050" FechaTimbrado="2021-06-15T17:13:22" RfcProvCertif="LSO1306189R5" SelloCFD="oL31sxYPXNwlyMqjJsg+22OAKG6KXjuoumHE0XqwNdqLqYFAQsAlIdzH1R34VxuGLwGwf5YDEzo7ksbITkLQ6RIdamJVvPrWny7mg7BA9Vwiv90uYx9ESMIK7GXzT3MM/d+Kqt9aBED3WvZtm/fOvk2YAMNWcBW46U1QYko6Qd0/Tkmquzc4uSeQUkKVphhIW45Y/m1M/BQ/MGCOpQsoWe4UE94G/UmUBre+C2P8qw2wP1vsIP2mnft2ntKrWhgyTGMxdPr+SxM+EhpJKT48ozdBEWUAn0xfirKZ9xtZGLj6kQgSugW+9JmDHRPBRBQVkD/20lQ2y1XTl7wphGSYZg==" NoCertificadoSAT="00001000000408254801" SelloSAT="Q4egJmxxVHLNQB4tu0r1xtMGz+GiDFeERgqoDjfHBCJOkOFOHXtQzAoKHPBTLXTIWfsIB2JHAMA6i0jYfp/+Fot4QVDLPnBsTPmMsInTtZdJyu7yWZNboMAOcYefkcBgh7cYh0KUaufLtrpOgiIYGdQc2txwzlFrozhJfjIwdpHxm3R/Y0bBysHyt5HcKBTifyXH6iRC+GT2kFnhxHSoCXIWOU0VLxFscX2OAecycvljkbJFDbP0vL1Sv2hAQjJOUdW0wSXd3HbcrMcfVJTicwR6kRa4FsgYbtKmVoIEK84IauULTmx+sU9ZY2tw5Vl9joF+pOSLlJ8+nWKmN11B/w==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

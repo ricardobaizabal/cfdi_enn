@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="I" Folio="117643" Fecha="2021-08-04T16:42:06" FormaPago="03" Sello="XNHUHfxVkGa17qB26em6p7CRZ3DHZm9DvnYyTSjd57g9Ttema4hIZD32c0iw3IDOY6U5KQZCwKiTpJZKi8oXrIV0xzVstRWqQJyIwoYJe5SqYOlDFaCZDm5DUinzdO8YDL2EOBYhbOv7iVrV3Pd6PPmU0kRlHp2Hf5AnmeUDUdYrrV8xhKj7ab5auy/aKGIeC6CODFk2n3x0d3ErwcJYnTZ9M0E+oiLLxMo/tEU7biFDhGpDWvWBCcV9lkABSlCoIB260O30UH/Z4cV4oYiI1WHKTfe/QDqpaipWdYJn1P0+Gr1lwidgDvtXXCbf3ax8Fg4mXbicN5TVQuAX6NfqhQ==" NoCertificado="00001000000507492866" Certificado="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" CondicionesDePago="Pago a 30 días" SubTotal="18995.55" Moneda="MXN" TipoCambio="1" Total="22034.84" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="64500">
+    <cfdi:Emisor Rfc="QPN970514HM2" Nombre="QUIMICOS Y PAPELES DEL NORTE SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="PUSE8204266F1" Nombre="ERICK DANIEL" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="47131701" Cantidad="7.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="AZUR DE INTERBODLADA 2600 BCO DT34001" ValorUnitario="438.48" Importe="3069.36">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3069.360000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="491.097600"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="47131701" Cantidad="7.00" Descripcion="AZUR DE INTERBODLADA 2600 BCO DT34001" NoIdentificacion="5072"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="14111703" Cantidad="100.00" ClaveUnidad="XBX" Unidad="CAJA" Descripcion="SEDITAS INTERDOBLADA BLANCA 10 DE 200, Toalla interdoblada blanca c/2000" ValorUnitario="132.00" Importe="13200.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="13200.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2112.000000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="14111703" Cantidad="100.00" Descripcion="SEDITAS INTERDOBLADA BLANCA 10 DE 200" NoIdentificacion="5071"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="47131501" Cantidad="200.00" ClaveUnidad="MTR" Unidad="METRO" Descripcion="FRANELA BLANCA 50 CM ANCHO, FRANELA COLOR BLANCO.METRO, MCA FRANELAS DE MEXICO, METRO" ValorUnitario="9.02" Importe="1804.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="1804.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="288.640000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="47131501" Cantidad="200.00" Descripcion="FRANELA BLANCA 50 CM ANCHO" NoIdentificacion="1352"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="47131501" Cantidad="100.00" ClaveUnidad="MTR" Unidad="METRO" Descripcion="FRANELA GRIS 50 CM ANCHO" ValorUnitario="9.02" Importe="902.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="902.000000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="144.320000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="47131501" Cantidad="100.00" Descripcion="FRANELA GRIS 50 CM ANCHO" NoIdentificacion="1353"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="47131611" Cantidad="1.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="RECOGEDOR DE LAMINA REFORZADO, RECOGEDOR METÁLICO CON MANGO DE MADERA, MCA. QP, PIEZA" ValorUnitario="20.19" Importe="20.19">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="20.190000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3.230400"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:Parte ClaveProdServ="47131611" Cantidad="1.00" Descripcion="RECOGEDOR DE LAMINA REFORZADO" NoIdentificacion="4923"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="3039.29">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3039.29"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="93a474af-669a-4ffd-99e1-7af0099f5032" FechaTimbrado="2021-08-04T16:47:50" RfcProvCertif="DIG130917F9A" SelloCFD="XNHUHfxVkGa17qB26em6p7CRZ3DHZm9DvnYyTSjd57g9Ttema4hIZD32c0iw3IDOY6U5KQZCwKiTpJZKi8oXrIV0xzVstRWqQJyIwoYJe5SqYOlDFaCZDm5DUinzdO8YDL2EOBYhbOv7iVrV3Pd6PPmU0kRlHp2Hf5AnmeUDUdYrrV8xhKj7ab5auy/aKGIeC6CODFk2n3x0d3ErwcJYnTZ9M0E+oiLLxMo/tEU7biFDhGpDWvWBCcV9lkABSlCoIB260O30UH/Z4cV4oYiI1WHKTfe/QDqpaipWdYJn1P0+Gr1lwidgDvtXXCbf3ax8Fg4mXbicN5TVQuAX6NfqhQ==" NoCertificadoSAT="00001000000411500203" SelloSAT="WO6kjbQ2KefUjGTQB50KCNDPs5dVSnbEzT+wmC/QHegBHKP8+Hxf17eL/Ega+RLgSy1yKBg3BwgcxDEZfr/dcSXo3XLtFWyP5d7yR3FZfakXQoPAtt0gCa8SXoGPrgobe5tdwItPtgpukk6A99F4FkENeT2MFwuQwMY2k4ktE/DethNCcwD8nDL+uwwWgSAUMUt1IQEJrKj5MX1kMlmXyW0ZjFlx0d8XYxHLGICaReu+zmgEKbdGChqOmVFbqf7D92V/nncv8urBVK1p8hdcgOgZBF0jec2aZrs2QERUC7KYXpl6Url10fLH9D/z763mBaOBxjSVK7OvRtmNGhyEWQ==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
